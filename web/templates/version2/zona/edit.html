@@ -1,0 +1,49 @@
+{% extends "version2/zona/base_zona.html" %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Zona' %}{% endblock %}
+
+{% block subheader_buttons %}
+
+<a href="{% url 'zona:zona'%}" 
+    class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+    <i class="bi bi-arrow-bar-left fs-2"></i> {% trans 'Atras'%}
+</a>
+
+<div  id="kt_docs_formvalidation_text_submit" >
+    <a id="btnEdiarZona"
+    class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+    {% trans 'Actualizar'%}
+    </a>
+</div>
+
+{% endblock %}
+
+{% block sub_title %}{% trans 'Nueva Zona'%}{% endblock %}
+
+{% block content_tabla  %}  
+    {% include "version2/zona/partials/form.html" %}
+{% endblock %}
+
+{% block extra_js %}
+
+<script>
+    app.zona_edit = ZONA_ID;
+    //console.log('*******', ZONA_ID);
+    app.getZona(ZONA_ID);
+    //console.log( "app.zona_edit = Zona;",app.zona_edit)
+
+</script>
+
+<script>
+    
+    $("#btnEdiarZona").click(function(){
+        //app.zona_edit = ZONA_ID;
+        //app.zona_edit = ZONA_ID;
+        //app.getZona(ZONA_ID);
+        app.editarZona(ZONA_ID);
+        
+    })
+</script>
+{% endblock %}
+

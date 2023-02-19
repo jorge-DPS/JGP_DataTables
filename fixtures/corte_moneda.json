@@ -1,0 +1,254 @@
+[
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 2,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Billetes de 200 Bs.",
+            "valor_corte_moneda":"200.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 4,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Billetes de 100 Bs.",
+            "valor_corte_moneda":"100.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 6,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Billetes de 50 Bs.",
+            "valor_corte_moneda":"50.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 8,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Billetes de 20 Bs.",
+            "valor_corte_moneda":"20.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 10,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Billetes de 10 Bs.",
+            "valor_corte_moneda":"10.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 22,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 5 Bs.",
+            "valor_corte_moneda":"5.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 24,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 2 Bs.",
+            "valor_corte_moneda":"2.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 26,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 1 Bs.",
+            "valor_corte_moneda":"1.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 28,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 0.50 Bs.",
+            "valor_corte_moneda":"0.50",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 30,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 0.20 Bs.",
+            "valor_corte_moneda":"0.20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 32,
+        "fields":{
+            "moneda_id": "1",
+            "descripcion_corte_moneda": "Monedas de 0.10 Bs.",
+            "valor_corte_moneda":"0.10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 52,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 100 $us.",
+            "valor_corte_moneda":"100.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 54,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 50 $us.",
+            "valor_corte_moneda":"50.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 56,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 20 $us.",
+            "valor_corte_moneda":"20.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 58,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 10 $us.",
+            "valor_corte_moneda":"10.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 60,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 5 $us.",
+            "valor_corte_moneda":"5.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 62,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 2 $us.",
+            "valor_corte_moneda":"2.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"cajas.CorteMoneda",
+        "pk": 64,
+        "fields":{
+            "moneda_id": "2",
+            "descripcion_corte_moneda": "Billetes de 1 $us.",
+            "valor_corte_moneda":"1.00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    }
+]

@@ -1,0 +1,31 @@
+{% extends 'version2/grupo_solidario/solidario_base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block title_subheader %}GRUPO SOLIDARIO{% endblock %}
+{% block subtitle_subheader %}DETALLE{% endblock %}
+
+{% block subheader_buttons %}
+
+<a href="{% url 'grupo:lista_grupo'%}" 
+class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+<i class="bi bi-arrow-bar-left fs-2"></i> {% trans 'Atras'%}
+</a>
+
+{% endblock %}
+
+{% block content_solidario %} 
+    {% include "version2/grupo_solidario/partials/info.html" %} 
+{% endblock content_solidario %}
+
+{% block extra_js %}
+
+<script>
+    app.grupo_edit = GRUPO_SOLIDARIO_ID;
+    //console.log('*******', ZONA_ID);
+    app.getGrupoSolidario(GRUPO_SOLIDARIO_ID);
+    //console.log( "app.zona_edit = Zona;",app.zona_edit)
+</script>
+
+{% endblock extra_js%}
+

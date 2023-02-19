@@ -1,0 +1,10 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+ONESIGNAL_APP_ID=4e1f06e9-32cd-4340-8d99-0b9ce1b080a0
+ONESIGNAL_REST_APIKEY=MGUxYmRkOGItNjZhNi00YzJlLWFhNjMtMjE5YjFlMDk0YWFi

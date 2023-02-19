@@ -1,0 +1,18 @@
+{% load static %}
+<div class="engage-toolbar d-flex position-fixed px-5 fw-bolder  top-50 end-0 transform-50 mt-35 gap-2" 
+        style="z-index: 3;" >
+    <!--begin::Help drawer toggle-->
+    <a  style="cursor: pointer;" @click="modal.reclamos.modal('show')">
+        <img src="{% static 'images/punto_de_reclamo.png' %}" height="50" width="50">
+    </a>
+    <!--end::Help drawer toggle-->
+
+</div>
+<div class="engage-toolbar d-flex position-fixed px-5 fw-bolder top-50 end-0 transform-50 mt-20 gap-2" style="z-index: 3;">
+    <!--begin::Help drawer toggle-->
+    <a  target="_blank" href="https://wa.me/59160508855" style="cursor: pointer;">
+        <img src="{% static 'images/whatsapp_logo.png' %}" height="45" width="45">
+    </a>
+    <!--end::Help drawer toggle-->
+</div>
+

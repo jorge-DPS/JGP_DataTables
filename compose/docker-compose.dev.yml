@@ -1,0 +1,54 @@
+version: '3.4'
+
+volumes:
+  mariadb_data:
+
+services:
+  django: &django
+    build:
+      context: ""
+      dockerfile: ./Dockerfile
+      target: development
+    depends_on:
+      - db
+      - mailhog
+      - redis
+    env_file:
+      - .envs/dev/django
+      - .envs/dev/mariadb
+    volumes:
+      - .:/app
+
+  celeryworker:
+    <<: *django
+    ports: []
+    command: /start-celeryworker
+
+  celerybeat:
+    <<: *django
+    ports: []
+    command: /start-celerybeat
+
+  flower:
+    <<: *django
+    ports:
+      - "5555:5555"
+    command: /start-flower
+
+  db:
+    environment:
+      POSTGRES_HOST: '127.0.0.1'
+      POSTGRES_PORT: '3306'
+      POSTGRES_DB: 'simicrofin_jdgp'
+      POSTGRES_USER: 'evillanueva'
+      POSTGRES_PASSWORD: 'evillanueva'
+    volumes:
+      - mariadb_data:/var/lib/mysql/data
+      - ./tmp/db/backups:/backups
+    ports:
+      - "3306:3306"
+
+  mailhog:
+    image: mailhog/mailhog:v1.0.0
+    ports:
+      - "8025:8025"

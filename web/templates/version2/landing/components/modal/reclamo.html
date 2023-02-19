@@ -1,0 +1,113 @@
+{% load static i18n %}
+
+
+<div class="modal fade" tabindex="-1" ref="reclamoModal">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-blue-jgp">
+        <h2 class="modal-title text-white">Envíanos tu reclamo</h2>
+        <button type="button" class="btn btn-close btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold" 
+            @click="closeModalReclamo()" aria-label="Close">
+          </button>
+      </div>
+      <div class="modal-body ">
+        <div class="row">
+          <div class="col-12">
+            <!--begin::Form-->
+            <!--h1 class="fw-bold text-dark mb-9">Datos personales</h1-->
+            <!--begin::Input group-->
+            <div class="d-flex flex-column mb-5 fv-row">
+              <!--begin::Label-->
+              <label class="fs-5 fw-bold text-gray-800 mb-2">Nombre completo</label>
+              <!--end::Label-->
+              <!--begin::Input-->
+              <input class="form-control" :class="{'border-danger': error_reclamo.nombre_completo}"
+                  type="text" placeholder=""
+                  name="nombre_completo" required
+                  v-model="reclamo.nombre_completo">
+              <!--end::Input-->
+              {% verbatim %}
+              <div class="fv-plugins-message-container text-danger" v-if="error_reclamo.nombre_completo">
+                <span v-for="error in error_reclamo.nombre_completo">
+                  {{error.message}}
+                </span>
+              </div>
+              {% endverbatim %}
+            </div>
+            <!--end::Input group-->
+            <!--begin::Input group-->
+            <div class="row mb-5">
+              <!--begin::Col-->
+              <div class="col-md-6 fv-row fv-plugins-icon-container">
+                <!--end::Label-->
+                <label class="fs-5 fw-bold text-gray-800 mb-2">Nro. C.I.</label>
+                <!--end::Label-->
+                <!--end::Input-->
+                <input type="number" class="form-control" :class="{'border-danger': error_reclamo.cedula_identidad}"
+                    placeholder="" name="cedula_identidad" required
+                    v-model="reclamo.cedula_identidad">
+                <!--end::Input-->
+                {% verbatim %}
+              <div class="fv-plugins-message-container text-danger" v-if="error_reclamo.cedula_identidad">
+                <span v-for="error in error_reclamo.cedula_identidad">
+                  {{error.message}}
+                </span>
+              </div>
+              {% endverbatim %}
+              </div>
+              <!--end::Col-->
+              <!--begin::Col-->
+              <div class="col-md-6 fv-row fv-plugins-icon-container">
+                <!--begin::Label-->
+                <label class="fs-5 fw-bold text-gray-800 mb-2">Celular</label>
+                <!--end::Label-->
+                <!--begin::Input-->
+                <input type="number" class="form-control" :class="{'border-danger': error_reclamo.numero_celular}"
+                    placeholder="" name="numero_celular" required
+                    v-model="reclamo.numero_celular">
+                <!--end::Input-->
+                {% verbatim %}
+              <div class="fv-plugins-message-container text-danger" v-if="error_reclamo.numero_celular">
+                <span v-for="error in error_reclamo.numero_celular">
+                  {{error.message}}
+                </span>
+              </div>
+              {% endverbatim %}
+              </div>
+              <!--end::Col-->
+            </div>
+            <!--end::Input group-->
+            
+            <!--begin::Input group-->
+            <div class="d-flex flex-column mb-5 fv-row fv-plugins-icon-container">
+              <label class="fs-6 fw-bold text-gray-800 mb-2">Reclamo</label>
+              <textarea class="form-control" :class="{'border-danger': error_reclamo.detalle}"
+                  rows="4" name="detalle" required
+                  v-model="reclamo.detalle" placeholder=""></textarea>
+              {% verbatim %}
+              <div class="fv-plugins-message-container text-danger" v-if="error_reclamo.detalle">
+                <span v-for="error in error_reclamo.detalle">
+                  {{error.message}}
+                </span>
+              </div>
+              {% endverbatim %}
+            </div>
+            <!--end::Input group-->
+            <div></div>
+            <!--end::Form-->
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer bg-blue-jgp">
+          <button type="button" class="btn btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold" 
+            @click="closeModalReclamo()">Cerrar</button>
+          <button type="button" class="btn btn-gold-jgp" @click="sendReclamo()">
+            <span class="indicator-label text-blue-jgp">Enviar reclamo</span>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

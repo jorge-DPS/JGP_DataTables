@@ -1,0 +1,41 @@
+{% extends 'version2/grupo_solidario/solidario_base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block title_subheader %}GRUPOS{% endblock %}
+{% block subtitle_subheader %}CREAR{% endblock %}
+
+{% block subheader_buttons %}
+
+<a href="{% url 'grupo:lista_grupo'%}" 
+class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+<i class="bi bi-arrow-bar-left fs-2"></i> {% trans 'Atras'%}
+</a>
+    <div id="kt_docs_formvalidation_text_submit_grupo">
+        <a id="btnSaveGrupo" {% comment %} href="{% url 'grupo:lista_grupo' %}" {% endcomment %}
+        class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+        {% trans 'Guardar'%}
+        </a>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+{% block content_solidario %}  
+
+    {% include "version2/grupo_solidario/partials/form.html" %}
+  
+{% endblock content_solidario%}
+
+{% block extra_js %}
+
+<script>
+    $("#btnSaveGrupo").click(function(){
+        app.createGrupoSolidario();
+    })
+</script>
+
+{% endblock extra_js %}

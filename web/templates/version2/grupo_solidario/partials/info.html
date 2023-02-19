@@ -1,0 +1,48 @@
+{% load static i18n %}
+<!-- id="kt_account_profile_details_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" novalidate="novalidate" data-select2-id="select2-data-kt_account_profile_details_form" -->
+    <!--begin::Card body-->
+<div class="card-body">
+
+    <!--begin::Form-->
+    <form id="kt_docs_formvalidation_text" class="form" action="#" autocomplete="off" >
+        <!--begin::Input group-->
+        <div class="row g-3 mb-10">
+            <div class="col-auto">
+                <!--begin::Label-->
+                <label class="fw-semibold fs-6 mb-2">Descripcion Grupo</label>
+                <!--end::Label-->
+                <!--begin::Input-->
+                <input type="text" readonly class="form-control form-control-solid mb-3 mb-lg-0" id="staticEmail2" value="{{grupo.descripcion_grupo}}">
+                <!--end::Input-->
+            </div>
+            <div class="col-auto">
+                <!--begin::Label-->
+                <label class="fw-semibold fs-6 mb-2">Secuencia Grupo</label>
+                <!--end::Label-->
+                <!--begin::Input-->
+                <input type="text" readonly class="form-control form-control-solid mb-3 mb-lg-0" id="staticEmail2" value="{{grupo.secuencia_grupo}}">
+                <!--end::Input-->
+            </div>
+            <div class="col-auto">
+                <!--begin::Label-->
+                <label class="fw-semibold fs-6 mb-2">Ultima Operacion</label>
+                <!--end::Label-->
+                <!--begin::Input-->
+                <input type="text" readonly class="form-control form-control-solid mb-3 mb-lg-0" id="staticEmail2" value="{{grupo.ultima_operacion}}">
+                <!--end::Input-->
+            </div>
+            <div class="col-auto">
+                <!--begin::Label-->
+                <label class="fw-semibold fs-6 mb-2">Fecha de creacion</label>
+                <!--end::Label-->
+                <!--begin::Input-->
+                <input type="text" readonly class="form-control form-control-solid mb-3 mb-lg-0" id="staticEmail2" value="{{grupo.creado_en}}">
+                <!--end::Input-->
+            </div>
+
+        </div>
+
+    </form>
+    <!--end::Form-->
+</div>
+      

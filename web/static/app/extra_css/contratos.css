@@ -1,0 +1,160 @@
+
+@page {
+  /*size: 7in 9.25in;*/
+  /*arriba|derecha|abajo|izquierda*/
+  size: 220mm 280mm; 
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+/* @page:first { 
+  margin-top: -1cm;
+} */
+body{
+counter-reset: Serial !important;
+font-family: Tahoma;
+font-size: 11.5px;
+counter-reset: page-counter 0 total-pages var(--total-pages);
+/*margin-top: 5;*/
+margin: 5;
+border-radius: 10%; 
+margin: 15;
+
+}
+.no-print{
+display:none !important;
+margin: 0 !important;
+padding: 0 !important;
+
+}
+.cambios { visibility: hidden; }
+.tituloV{
+display: none;
+}
+.fecha-print{
+font-size: 12px;
+padding: 1cm !important;
+margin-top: -1.5cm;
+}
+div.divFooter {
+  visibility: hidden;
+}
+@media print {
+  div.divFooter {
+    position: fixed;
+    /*top: 0;*/
+    visibility: visible;
+  }
+  .tituloV
+  {
+    display:block;
+    visibility: hidden;
+  }
+  .imagen
+  {
+    margin-top: 10;
+    right: 500;
+  }
+
+/*     .nrPg
+  {
+      position: fixed;
+      bottom: 0;
+      page-break-inside: avoid;
+      page-break-after: always;
+      
+>>>>>>> raul
+  }
+  
+  .content-block{
+      page-break-inside: avoid;
+      page-break-after: always;
+      
+  } */
+  .cambio {
+    visibility: visible; 
+      text-align: right;
+    }
+  /* .posicion
+  {
+    bottom: -1px;
+    margin: 0cm 1cm 6cm 1cm;
+    margin: 0.5cm 1cm 0.5cm 1cm 
+  } */
+  .page
+  {
+    bottom: -1px;
+  }
+  .posicion{
+    position: relative;
+    z-index: 1;
+    bottom: -35em;
+  }
+  body{
+    font-family: Tahoma;
+    font-size: 11.5px;
+    counter-reset: page-counter 0 total-pages var(--total-pages);
+    margin-top: 5;
+    margin: 5;
+  }
+}
+/* incisos*/
+.letras-indices{ 
+counter-reset: item;
+list-style-type: none;
+
+}
+.letras-indices li { display: block; }
+
+.letras-indices li:before { 
+color: black;
+content: counter(item, lower-alpha) ") "; 
+counter-increment: item ;
+}
+/*============*/
+
+/*para agregar los indices 10.1 */
+.lista-decima{
+counter-reset: count;
+list-style-type: none;
+}
+.lista-decima li {
+counter-increment: count;
+}
+.lista-decima li:before {
+content: "10." counter(count, decimal) ".";
+padding-right: 0.5em;
+color: black;
+
+} 
+/*===============*/
+:root {
+--total-pages: 0;
+}
+
+html {
+box-sizing: border-box;
+}
+
+
+  /* .cambio { visibility: hidden; } */
+.parrafo{
+  text-align: justify;
+}
+mark{
+  background-color: yellow;
+}
+
+
+.firmas{
+  margin: 2cm 0 1cm 0;
+  padding: 1cm 0 1cm 0;
+}
+
+.contador-tr td:first-child:before {
+counter-increment: Serial;
+/* Increment the Serial counter */
+content: counter(Serial);
+/* Display the counter */
+}

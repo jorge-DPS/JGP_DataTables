@@ -1,0 +1,169 @@
+{% load static i18n %}
+
+<div class="footer pt-6 d-flex flex-lg-column" id="about" 
+      style="background-color: #D8BB4A;">
+  
+      <div class="d-flex flex-column ">
+        <!--begin::Container-->
+        <div class="container-fluid">
+          <!--begin::Card-->
+          <div class="card card-custom gutter-b mb-0 pb-0" style="background-color: #D8BB4A;">
+            <div class="card-body">
+              <div class="d-flex flex-wrap flex-md-nowrap">
+                <!--begin: Pic-->
+                <div class="flex-shrink-0 mr-7">
+                  <div class="symbol symbol-150 symbol-lg-190">
+                    <img alt="JGP-LOGO" src="{% static 'images/logos_jgp/logo-vertical.png' %}">
+                  </div>
+                  <div class="symbol symbol-50 symbol-lg-120 symbol-primary d-none">
+                    <span class="font-size-h3 symbol-label font-weight-boldest">JGP</span>
+                  </div>
+                </div>
+                <!--end: Pic-->
+                <!--begin: Info-->
+                <div class="flex-grow-1">
+                  <!--begin: Title-->
+                  <div class="d-flex flex-wrap align-items-center justify-content-between ">
+                    <div class="mr-3">
+                      <!--begin::TITULO -->
+                      <a href="{% url 'home' %}" class="d-flex align-items-center text-dark text-hover-primary font-size-h5 font-weight-bold mr-3">
+                          Jesús del Gran Poder S.A.
+                        <i class="flaticon2-correct text-success icon-md ml-2"></i>
+                      </a>
+
+                      <!--begin::Contacts-->
+                      <div class="d-flex flex-wrap my-2">
+                        <a class="d-flex text-dark-75 text-hover-white font-weight-bold mr-lg-8 mr-5 mb-lg-0 mb-2"
+                            href="mailto:info@jesusgranpoder.com.bo?subject='Consulta (visto en sitio web)'" >
+                          <span class="svg-icon svg-icon-md svg-icon-dark-65 mr-1">
+                            <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Mail-notification.svg-->
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <rect x="0" y="0" width="24" height="24"></rect>
+                                <path d="M21,12.0829584 C20.6747915,12.0283988 20.3407122,12 20,12 C16.6862915,12 14,14.6862915 14,18 C14,18.3407122 14.0283988,18.6747915 14.0829584,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,8 C3,6.8954305 3.8954305,6 5,6 L19,6 C20.1045695,6 21,6.8954305 21,8 L21,12.0829584 Z M18.1444251,7.83964668 L12,11.1481833 L5.85557487,7.83964668 C5.4908718,7.6432681 5.03602525,7.77972206 4.83964668,8.14442513 C4.6432681,8.5091282 4.77972206,8.96397475 5.14442513,9.16035332 L11.6444251,12.6603533 C11.8664074,12.7798822 12.1335926,12.7798822 12.3555749,12.6603533 L18.8555749,9.16035332 C19.2202779,8.96397475 19.3567319,8.5091282 19.1603533,8.14442513 C18.9639747,7.77972206 18.5091282,7.6432681 18.1444251,7.83964668 Z" fill="#000000"></path>
+                                <circle fill="#000000" opacity="0.3" cx="19.5" cy="17.5" r="2.5"></circle>
+                              </g>
+                            </svg>
+                            <!--end::Svg Icon-->
+                          </span>info@jesusgranpoder.com.bo
+                        </a>
+                        <a class="d-flex text-dark-75 text-hover-white font-weight-bold"
+                          href="https://g.page/jesusdelgranpoder-sa?share" target="_blank" >
+                          <span class="svg-icon svg-icon-md svg-icon-dark-65 mr-1">
+                            <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Map/Marker2.svg-->
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <rect x="0" y="0" width="24" height="24"></rect>
+                                <path d="M9.82829464,16.6565893 C7.02541569,15.7427556 5,13.1079084 5,10 C5,6.13400675 8.13400675,3 12,3 C15.8659932,3 19,6.13400675 19,10 C19,13.1079084 16.9745843,15.7427556 14.1717054,16.6565893 L12,21 L9.82829464,16.6565893 Z M12,12 C13.1045695,12 14,11.1045695 14,10 C14,8.8954305 13.1045695,8 12,8 C10.8954305,8 10,8.8954305 10,10 C10,11.1045695 10.8954305,12 12,12 Z" fill="#000000"></path>
+                              </g>
+                            </svg>
+                            <!--end::Svg Icon-->
+                          </span>
+                          Oficina central
+                        </a>
+                      </div>
+                      <!--end::Contacts-->
+                    </div>
+										{% comment %} {% block cta_footer %}
+                    <div class="my-lg-0 my-1">
+                      <a href="{% url 'contabilidad:solicitud-credito' %}" 
+                          class="btn btn-lg btn-light-success font-weight-bolder text-uppercase font-size-h4 px-12 py-5">
+                        Solicitar crédito
+                      </a>
+                    </div>
+										{% endblock %} {% endcomment %}
+                  </div>
+                  <!--end: Title-->
+                  <!--begin: Content-->
+                  <div class="d-flex align-items-center flex-wrap justify-content-between mt-5">
+                    <div class="flex-grow-1 font-weight-bold text-dark-75 py-5 py-lg-2 mr-5">
+                      Somos una empresa Boliviana que desde el 2010 brindamos soluciones a las necesidades
+                      de la personas de ingresos regulares. Ofrecemos prestamos de dinero en 24 horas
+                      y tambien ofrecemos productos en cuotas que son accesibles segun la capacidad de 
+                      pago del cliente.
+                    </div>
+                    <span class="flex-grow-1 font-weight-bold text-dark-65 mt-2">
+                      Queremos ayudarte a cumplir tus sueños - fácil, rápido y sencillo.
+                    </span>
+                    
+                  </div>
+                  <!--end: Content-->
+                </div>
+                <!--end: Info-->
+              </div>
+              <div class="separator separator-solid my-7"></div>
+              <!--begin: REDES SOCIALES-->
+              <div class="d-flex align-items-center justify-content-between flex-wrap">                
+                <!--begin: FACEBOOK-->
+                <div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
+                  <span class="mr-4">
+                    <a href="https://www.facebook.com/jesusdelgranpoder.sa" 
+                        class="text-dark-75 font-weight-bolder" target="_blank">
+                        <i class="fab fa-facebook-square icon-2x text-dark-75"></i>
+                    </a>
+                  </span>
+                  <div class="d-flex flex-column text-dark-75">
+                    <a href="https://www.facebook.com/jesusdelgranpoder.sa" 
+                        class="text-dark-75 font-weight-bolder" target="_blank">
+                    <span class="font-weight-bolder font-size-sm">Facebook</span>
+                  </a>
+                  </div>
+                </div>
+                <!--begin: INSTAGRAM-->
+                <div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
+                  <span class="mr-4">
+                    <a href="https://www.instagram.com/jesusdelgranpoder.sa/" 
+                        class="text-dark-75 font-weight-bolder" target="_blank">
+                        <i class="fab fa-instagram-square icon-2x text-dark-75"></i>
+                    </a>
+                  </span>
+                  <div class="d-flex flex-column text-dark-75">
+                    <a href="https://www.instagram.com/jesusdelgranpoder.sa/" 
+                        class="text-dark-75 font-weight-bolder" target="_blank">
+                    <span class="font-weight-bolder font-size-sm">Instagram</span>
+                    </a>
+                  </div>
+                </div>
+                <!--begin: WHATSAPP-->
+                <div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
+                  <span class="mr-4 text-dark-75">
+                    <i class="fab fa-whatsapp-square icon-2x text-dark-75"></i>
+                  </span>
+                  <div class="d-flex flex-column text-dark-75">
+                    <span class="font-weight-bolder font-size-sm">+591 60508855</span>
+                  </div>
+                </div>
+                <!--begin: PHONE-->
+                <div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
+                  <span class="mr-4 text-dark-75">
+                    <i class="fas fa-phone-square icon-2x text-dark-75"></i>
+                  </span>
+                  <div class="d-flex flex-column flex-lg-fill">
+                    <span class="text-dark-75 font-weight-bolder font-size-sm">+591 2483361</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end::Card-->
+        </div>
+        <!--end::Container-->
+      </div>  
+    </div>  
+    
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center py-5" 
+      style="background-color: #D8BB4A;">
+        <!--begin::Copyright-->
+        <div class="order-2 order-md-1">
+            <span class="text-dark-75 font-weight-bold mr-2">2021©</span>
+            <a href="{% url 'home' %}" class="text-dark-75 text-hover-primary">JGP SA</a>
+        </div>
+        <!--end::Copyright-->
+        <!--begin::Nav-->
+        <div class="nav nav-dark">
+            <!--a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
+            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
+            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-0">Contact</a-->
+        </div>
+        <!--end::Nav-->
+    </div>

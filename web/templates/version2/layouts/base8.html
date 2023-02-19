@@ -1,0 +1,252 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<!--
+Author: Keenthemes
+Product Name: Metronic - Bootstrap 5 HTML, VueJS, React, Angular & Laravel Admin Dashboard Theme
+Purchase: https://1.envato.market/EA4JP
+Website: http://www.keenthemes.com
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+-->
+<html lang="es">
+	<!--begin::Head-->
+	<head><base href="">
+		<title>{% block title %}{% endblock %} | {{ project_name }}</title>
+		<meta charset="utf-8" />
+		<meta name="title" content="{{ project_name }}" />
+    <meta name="description" content="{{ project_description }}" />
+    <meta name="author" content="{{ project_author }}">
+    {% block meta_keywords %}
+	  {% endblock %}
+    {% include "layouts/partials/meta_tags.html" %}
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+		<!--meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
+		<meta property="og:url" content="https://keenthemes.com/metronic" />
+		<meta property="og:site_name" content="Keenthemes | Metronic" /-->
+
+    {% block css_base %}
+		<!--link rel="canonical" href="https://preview.keenthemes.com/metronic8" /-->
+		<link rel="shortcut icon" href="{% static 'metronic8/assets/media/logos/favicon.ico'%}" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Page Vendor Stylesheets(used by this page)-->
+		<link href="{% static 'metronic8/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css' %}" 
+        rel="stylesheet" type="text/css" />
+		<link href="{% static 'metronic8/assets/plugins/custom/datatables/datatables.bundle.css' %}" 
+        rel="stylesheet" type="text/css" />
+		<!--end::Page Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="{% static 'metronic8/assets/plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+		<link href="{% static 'metronic8/assets/css/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!--begin::Global Stylesheets Bundle(used by all pages)-->
+    <!-- DARK THEME
+    <link href="{% static 'metronic8/assets/plugins/global/plugins.dark.bundle.css'%}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'metronic8/assets/css/style.dark.bundle.css'%}" rel="stylesheet" type="text/css" />
+    -->
+    <script src="{% static 'assets/plugins/global/plugins.bundle.js' %}"></script>
+    <!--end::Global Stylesheets Bundle-->
+    {% endblock %}
+
+    {% block extra_css %}
+    {% endblock %}
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed " 
+      style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px" >
+		<!--begin::Main-->
+		<!--begin::Root-->
+    <div class="d-flex flex-column flex-root">
+      <!--begin::Page-->
+      <div class="page d-flex flex-row flex-column-fluid">
+
+        <!--begin::Aside-->
+        {% include 'version2/layouts/partials/menu_aside.html' %}
+        <!--end::Aside-->
+
+        <!--begin::Wrapper-->
+        <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+
+          <!--begin::Header-->
+          {% include 'version2/layouts/partials/header.html' %}
+          <!--end::Header-->
+
+          
+          <!--begin::Content-->
+          <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+            
+            <!-- SUB HEADER IN CONTENT BODY-->
+            <!--begin::Toolbar-->
+            <div class="toolbar" id="kt_toolbar">
+              <!--begin::Container-->
+              <div id="kt_toolbar_container" class="container-fluid d-flex flex-stack no-print">
+                <!--begin::Page title-->
+                <div data-kt-swapper="true" data-kt-swapper-mode="prepend" 
+                    data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}"
+                    class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+                  <!--begin::Title-->
+                  <h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">
+                    {% block title_subheader %}{% endblock %}
+                    <!--begin::Separator-->
+                    <span class="h-20px border-gray-200 border-start ms-3 mx-2"></span>
+                    <!--end::Separator-->
+                    <!--begin::Description-->
+                    <small class="text-muted fs-7 fw-bold my-1 ms-1">
+                      {% block subtitle_subheader %}{% endblock %}
+                    </small>
+                    <!--end::Description-->
+                  </h1>
+                  {% block search_subheader %}{% endblock %}
+                  <!--end::Title-->
+                </div>
+                <!--end::Page title-->
+                <div class="d-flex align-items-center gap-2 gap-lg-3" >
+                  {% block subheader_buttons %}
+                  <!--begin::Actions-->
+                  {#% include 'version2/layouts/partials/subheader_buttons.html' %#}
+                  <!--end::Actions-->
+                  {% endblock %}
+                </div>
+              </div>
+              <!--end::Container-->
+            </div>
+            <!--end::Toolbar-->
+
+            <!-- CONTENT BODY -->
+            {% block content_body %}
+            <!--begin::Content body -->
+            {#% include 'version2/layouts/components_extra/content_dashboard_body.html' %#}
+            <!--begin::Post-->
+              <!-- Es en este punto donde se debe cargar todas las vistas del panel de control de JGP -->
+            <!--end::Post-->            
+            {% endblock %}
+            <!--end::Content body -->
+          </div>
+          <!--end::Content-->
+
+
+          <!--begin::Footer-->
+          
+
+          {% include 'version2/layouts/partials/footer.html' %}
+          <!--end::Footer-->
+        </div>
+        <!--end::Wrapper-->
+      </div>
+      <!--end::Page-->
+    </div>
+    <!--end::Root-->
+		<!--begin::Drawers-->
+	
+    <!--begin::Activities drawer-->
+      <!--se encuentra en components_extra-->		
+    <!--end::Activities drawer-->
+      
+		<!--begin::Chat drawer-->
+		  <!--se encuentra en components_extra-->		
+      
+    <!--end::Chat drawer-->
+    
+    <!--end::Drawers-->
+		<!--end::Main-->
+		
+    <!--begin::Engage drawers-->
+      <!--se encuentra en components_extra-->		
+    <!--end::Engage drawers-->
+      
+		
+		<!--begin::Scrolltop-->
+		{% include 'version2/layouts/partials/scroll_up_button.html' %}
+		<!--end::Scrolltop-->
+		
+		<!--begin::Modals-->
+      <!--se encuentra en components_extra-->		
+		<!--end::Modals-->
+
+    {% block base_js %}
+
+		<!--begin::Javascript-->
+		<!--
+      <script>var hostUrl = "assets/";</script>
+    -->
+		<!--begin::Global Javascript Bundle(used by all pages)-->
+		<script src="{% static 'metronic8/assets/plugins/global/plugins.bundle.js' %}"></script>
+		<script src="{% static 'metronic8/assets/js/scripts.bundle.js' %}"></script>
+		<!--end::Global Javascript Bundle-->
+		<!--begin::Page Vendors Javascript(used by this page)-->
+		
+      
+      <script src="{% static 'metronic8/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js' %}"></script>
+      <script src="{% static 'metronic8/assets/plugins/custom/datatables/datatables.bundle.js' %}"></script>
+   
+		<!--end::Page Vendors Javascript-->
+		<!--begin::Page Custom Javascript(used by this page)-->
+		
+      <script src="{% static 'metronic8/assets/js/widgets.bundle.js' %}"></script>
+      <script src="{% static 'metronic8/assets/js/custom/widgets.js' %}"></script>
+      <script src="{% static 'metronic8/assets/js/custom/apps/chat/chat.js' %}"></script>
+      <script src="{% static 'metronic8/assets/js/custom/utilities/modals/upgrade-plan.js' %}"></script>
+      <script src="{% static 'metronic8/assets/js/custom/utilities/modals/create-app.js' %}"></script>
+      <script src="{% static 'metronic8/assets/js/custom/utilities/modals/users-search.js' %}"></script>
+   
+		<!--end::Page Custom Javascript-->
+		<!--end::Javascript-->
+    <script src="{% static 'assets/js/vue/vue.min.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-router.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-resource.min.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-clipboard.min.js' %}"></script>
+    <script src="{% static 'app/connect_api.js' %}"></script>
+    
+    <script>
+      // LANGAGE FOR DATERANGEPICKER 
+      const LANG = {
+        "separator": " - ",
+        "applyLabel": "Aplicar",
+        "cancelLabel": "Cancelar",
+        "fromLabel": "DE",
+        "toLabel": "HASTA",
+        "customRangeLabel": "Custom",
+        "daysOfWeek": [
+            "Dom",
+            "Lun",
+            "Mar",
+            "Mie",
+            "Jue",
+            "Vie",
+            "Sáb"
+        ],
+        "monthNames": [
+            "Enero",
+            "Febrero",
+            "Marzo",
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Julio",
+            "Agosto",
+            "Septiembre",
+            "Octubre",
+            "Noviembre",
+            "Diciembre"
+        ],
+        "firstDay": 1
+      };
+    </script>
+    {% endblock %}
+    {% block vue_js %}
+    {% endblock %}
+    {% block extra_js %}
+    {% endblock %}
+
+	</body>
+	<!--end::Body-->
+</html>

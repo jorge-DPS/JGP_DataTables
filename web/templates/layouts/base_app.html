@@ -1,0 +1,104 @@
+{% load static i18n %}
+
+<!doctype html>
+<html lang="es">
+<!--begin::Head-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock %} | {{ project_name }}</title>
+	  <meta name="title" content="{{ project_name }}" />
+    <meta name="description" content="{{ project_description }}" />
+    <meta name="author" content="{{ project_author }}">
+    {% block meta_keywords %}
+	  {% endblock %}
+    {% include "layouts/partials/meta_tags.html" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    {% block css_block %}
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Page Vendors Styles(used by this page)-->
+    <link href="{% static 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendors Styles-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+
+    <link href="{% static 'assets/plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <!--link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" /-->
+    <link href="{% static 'assets/css/style.bundle.css' %}" rel="stylesheet">
+    <!--end::Global Theme Styles-->
+    <!--begin::Layout Themes(used by all pages)-->
+    <link href="{% static 'assets/css/themes/layout/header/base/light.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'assets/css/themes/layout/header/menu/light.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'assets/css/themes/layout/brand/dark.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'assets/css/themes/layout/aside/dark.css' %}" rel="stylesheet" type="text/css" />
+    <!--end::Layout Themes-->
+    <link rel="shortcut icon" href="{% static 'assets/media/logos/favicon.ico' %}" />
+    {% block extra_styles %}{% endblock %}
+    {% endblock %}
+    {% block css_extra %}
+    {% endblock %}
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<!--body class="{% block body_class %}{% endblock %}"-->
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed page-loading" 
+  style="background-color: #171932;">
+
+    {% block container %}{% endblock %}
+
+
+    {% block js_block %}
+      <!--begin:: BASE APP CLIENTE-->
+      <script src="{% static 'app/settings_template/app_settings.js' %}"></script>
+
+      <!--begin::Global Theme Bundle(used by all pages)-->
+      <script src="{% static 'assets/plugins/global/plugins.bundle.js' %}"></script>
+
+      <!--
+      <script src="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.js' %}"></script>
+      -->
+
+      <script src="{% static 'assets/js/scripts.bundle.js' %}"></script>
+      <!--end::Global Theme Bundle-->
+      <!--begin::Page Vendors(used by this page)-->
+      <script src="{% static 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.js' %}"></script>
+      <script src="{% static 'assets/js/pages/widgets.js' %}"></script>
+      <!--end::Page Vendors-->
+
+
+      <!--end:: END BASE APP CLIENTE-->
+
+
+      <!-- development version, includes helpful console warnings
+      <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+      -->
+
+      <!-- production version, optimized for size and speed -->
+      <!--script src="https://cdn.jsdelivr.net/npm/vue@2"></script-->
+
+      <!--begin::Global Theme Bundle(used by all pages)-->
+      <!--end::Global Theme Bundle-->
+      <!--begin::Page Scripts(used by this page)
+      <script src="{% static 'assets/js/pages/custom/login/login-general.js' %}"></script>
+      -->
+      <!--end::Page Scripts-->
+          <script src="{% static 'assets/js/vue/vue.min.js' %}"></script>
+          <script src="{% static 'assets/js/vue/vue-router.js' %}"></script>
+          <script src="{% static 'assets/js/vue/vue-resource.min.js' %}"></script>
+
+          <script src="{% static 'app/connect_api.js' %}"></script>
+      <!--end::Page Scripts-->
+    {% endblock %}
+    {% block js_extra %}
+
+
+    {% endblock %}
+</body>
+<!--end::Body-->
+
+
+</html>

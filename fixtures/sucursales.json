@@ -1,0 +1,57 @@
+[
+{
+    "model": "empresa.sucursal",
+    "pk": 401,
+    "fields": {
+        "slug": "D98F8",
+        "nombre": "Periferica",
+        "direccion": "z. Cupilupaca, av. Periferica, c. Adriana Pariente, Nro. 100",
+        "telefono": "2260309",
+        "punto_gps": "-16.478878,-68.1280376"
+    }
+},
+{
+    "model": "empresa.sucursal",
+    "pk": 501,
+    "fields": {
+        "slug": "E8AD7",
+        "nombre": "Pampahasi",
+        "direccion": "z. Pampahasi, calle 'E' esq. Circunvalación, Nro. 50",
+        "telefono": "2259205",
+        "punto_gps": "-16.5020362,-68.1041799"
+    }
+},
+{
+    "model": "empresa.sucursal",
+    "pk": 101,
+    "fields": {
+        "slug": "40DC5",
+        "nombre": "Buenos Aires",
+        "direccion": "z. Villa Nueva Potosí, Av. Buenos Aires, Nro. 1340",
+        "telefono": "2914445",
+        "punto_gps": "-16.504356,-68.143852"
+    }
+},
+{
+    "model": "empresa.sucursal",
+    "pk": 301,
+    "fields": {
+        "slug": "68F4B",
+        "nombre": "El Carmen",
+        "direccion": "z. Alto San Pedro, Calle Canónigo Ayllon, Nro. 1201",
+        "telefono": "2483861",
+        "punto_gps": "-16.510637,-68.141780"
+    }
+},
+{
+    "model": "empresa.sucursal",
+    "pk": 100,
+    "fields": {
+        "slug": "B45D",
+        "nombre": "Oficina Central",
+        "direccion": "z. Alto San Pedro, Calle Canónigo Ayllon, Nro. 1201",
+        "telefono": "2914445",
+        "punto_gps": "-16.504356,-68.143852"
+    }
+}
+]

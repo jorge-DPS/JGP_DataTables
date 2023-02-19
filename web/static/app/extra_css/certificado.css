@@ -1,0 +1,42 @@
+@page {
+    size: 220mm 280mm; 
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-right: 2cm;
+  }
+  
+ @media print{
+     /* Reglas CSS específicas para imprimir */
+      .sinimprimir{
+         display:none;
+      }
+      
+      .footer{
+          visibility:hidden !important;
+       }
+      .header{
+          visibility:hidden !important;
+       }
+
+      .titulo{
+         font-size: 50px;
+         font-weight: 600;
+      }
+      .textoconten{
+         font-size: 25px;
+      }
+      .fecha{
+         font-size: 25px;
+      }
+      .imagenqr{
+         margin-top: 90px;
+         width: 5cm;
+         height: 5cm;
+      }
+      .pie{
+         display: block !important;
+         font-size: 10px;
+         margin-top: 250px;
+      }
+      .enlace{ font-size: 12px;}
+ }

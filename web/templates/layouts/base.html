@@ -1,0 +1,115 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="es">
+<!--begin::Head-->
+
+<head>
+	<meta charset="utf-8" />
+	<title>{% block title %}{% endblock %} | Jesús del Gran Poder S.A.</title>
+	<meta name="title" content="{{ project_name }}" />
+	<meta name="description" content="{{ project_description }}" />
+	<meta name="author" content="{{ project_author }}"> 
+	{% block meta_keywords %}
+	{% endblock %}{% include "layouts/partials/meta_tags.html" %}
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	
+	{% block css_block %}
+	<!--begin::Fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+	<!--end::Fonts-->
+	<!--begin::Page Vendors Styles(used by this page)-->
+	<link href="{% static 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.css' %}" rel="stylesheet" type="text/css" />
+	<!--end::Page Vendors Styles-->
+	<!--begin::Global Theme Styles(used by all pages)-->
+	
+	<link href="{% static 'assets/plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/style.bundle.css' %}" rel="stylesheet">
+	<!--end::Global Theme Styles-->
+	
+	<!--begin::Layout Themes(used by all pages)-->
+	<link href="{% static 'assets/css/themes/layout/header/base/light.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/themes/layout/header/menu/light.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/themes/layout/brand/light.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/themes/layout/aside/dark.css' %}" rel="stylesheet" type="text/css" />
+	<!--end::Layout Themes-->
+	<!--link rel="shortcut icon" href="{% static 'assets/media/logos/favicon.ico' %}" /-->
+	{% block extra_styles %}{% endblock %}	
+	{% endblock %}
+	{% block css_extra %}
+	{% endblock %}
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<!--body class="{% block body_class %}{% endblock %}"-->
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading {% block aside %}{% endblock %}" 
+	style="background-color: #171932;">
+	
+	{% block container %}
+	{% endblock %}
+	
+	
+	{% block js_block %}
+    
+    <!--begin::Global Config(global config for global JS scripts)-->
+        <script src="{% static 'app/settings_template/app_settings.js' %}"></script>
+
+    <!--end::Global Config-->
+    
+    <!--begin:: BASE -->
+    <!--script src="{% static 'vendors/jquery/jquery.min.js' %}"></script-->
+    <script src="{% static 'assets/plugins/global/plugins.bundle.js' %}"></script>
+    <script src="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.js' %}"></script>
+    <script src="{% static 'assets/js/scripts.bundle.js' %}"></script>
+    
+    <script src="{% static 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.js' %}"></script>
+    <!--end::Global Theme Bundle-->
+    
+    <!--begin::Page Scripts(used by this page)-->
+    <script src="{% static 'assets/js/pages/widgets.js' %}"></script>
+    
+    <!--begin::Page Vendors(used by this page)
+      <script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="http://maps.google.com/maps?file=api&v=1&key=AIzaSyBLILVVtV3erBhMDBu6BJlBkTK99bYxbVc" type="text/javascript"></script>
+      <script src="https://raw.githubusercontent.com/HPNeo/gmaps/master/gmaps.js"></script>
+      <script src="{% static 'assets/js/pages/features/maps/google-maps.js' %}"></script>
+    -->
+    
+    
+    <!--end::Page Vendors-->
+	
+	
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+      <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+      <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+    -->
+    
+    <script src="{% static 'assets/js/vue/vue.min.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-router.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-resource.min.js' %}"></script>
+    <script src="{% static 'assets/js/vue/vue-clipboard.min.js' %}"></script>
+    <script src="{% static 'app/connect_api.js' %}"></script>
+    <!--end::Page Scripts-->
+    
+    <!--end:: BASE -->
+	{% endblock %}
+	{% block js_extra %}{% endblock %}
+	
+	{% block js_extra_client %}
+	{% endblock %}
+	
+	{% block js_extra_activos %}
+	{% endblock %}
+	
+	{% block js_extra_credito %}
+	{% endblock %}
+	
+	
+</body>
+<!--end::Body-->
+
+
+</html>

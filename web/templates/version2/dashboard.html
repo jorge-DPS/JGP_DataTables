@@ -1,0 +1,32 @@
+{% extends 'version2/layouts/base8.html' %}
+{% load static %}
+{% block title %}Dashboard{% endblock %}
+{% block title_subheader %}Panel de Control{% endblock %}
+
+
+{% block content_body %}
+
+<!--begin::Post-->
+<div class="post d-flex flex-column-fluid" id="vue_solicitud">
+  <!--begin::Container-->
+  <div id="kt_content_container" class="container-xxl  bg-success">
+
+    {% block content_solicitud %}
+    {% include 'version2/layouts/pages/dashboard_content.html' %}
+    {% endblock %}
+
+  </div>
+  <!--end::Container-->
+</div>
+<!--end::Post-->
+  
+{% endblock %}
+
+{% block vue_js %}
+<script>
+  var csrftoken = '{{ csrf_token }}';
+	var FOTO_DEFAULT = "{% static 'metronic8/assets/media/avatars/blank.png' %}";
+  var USER = "{{user}}";
+</script>
+{% endblock %}
+

@@ -1,0 +1,5434 @@
+[
+    {
+        "model":"zona.localidad",
+        "pk": 1,
+        "fields":{
+            "descripcion": "SUCRE",
+            "codigo_departamento": "01",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 2,
+        "fields":{
+            "descripcion": "MONTEAGUDO",
+            "codigo_departamento": "01",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 3,
+        "fields":{
+            "descripcion": "PADILLA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 4,
+        "fields":{
+            "descripcion": "ZUDAÑEZ",
+            "codigo_departamento": "01",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 5,
+        "fields":{
+            "descripcion": "YAMPARAES",
+            "codigo_departamento": "01",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 6,
+        "fields":{
+            "descripcion": "CAMARGO",
+            "codigo_departamento": "01",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 7,
+        "fields":{
+            "descripcion": "CULPINA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 8,
+        "fields":{
+            "descripcion": "MUYUPAMPA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 9,
+        "fields":{
+            "descripcion": "LAS CARRERAS",
+            "codigo_departamento": "01",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 10,
+        "fields":{
+            "descripcion": "TARABUCO",
+            "codigo_departamento": "01",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 11,
+        "fields":{
+            "descripcion": "VILLA SERRANO",
+            "codigo_departamento": "01",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 12,
+        "fields":{
+            "descripcion": "TOMINA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 13,
+        "fields":{
+            "descripcion": "HUACARETA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 14,
+        "fields":{
+            "descripcion": "SAN LUCAS",
+            "codigo_departamento": "01",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 15,
+        "fields":{
+            "descripcion": "VILLA (VILLORRIO) ABECIA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 16,
+        "fields":{
+            "descripcion": "INCAHUASI",
+            "codigo_departamento": "01",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 17,
+        "fields":{
+            "descripcion": "VILLA MACHARETI",
+            "codigo_departamento": "01",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 18,
+        "fields":{
+            "descripcion": "MACHARETI",
+            "codigo_departamento": "01",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 19,
+        "fields":{
+            "descripcion": "EL VILLAR",
+            "codigo_departamento": "01",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 20,
+        "fields":{
+            "descripcion": "ICLA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 21,
+        "fields":{
+            "descripcion": "MOJOCOYA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 22,
+        "fields":{
+            "descripcion": "PRESTO",
+            "codigo_departamento": "01",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 23,
+        "fields":{
+            "descripcion": "TARVITA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 24,
+        "fields":{
+            "descripcion": "ALCALA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 25,
+        "fields":{
+            "descripcion": "YOTALA",
+            "codigo_departamento": "01",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 26,
+        "fields":{
+            "descripcion": "LA PAZ",
+            "codigo_departamento": "02",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 27,
+        "fields":{
+            "descripcion": "VIACHA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 28,
+        "fields":{
+            "descripcion": "CARANAVI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 29,
+        "fields":{
+            "descripcion": "PATACAMAYA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 30,
+        "fields":{
+            "descripcion": "COPACABANA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 31,
+        "fields":{
+            "descripcion": "EL ALTO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 32,
+        "fields":{
+            "descripcion": "COROICO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 33,
+        "fields":{
+            "descripcion": "CHULUMANI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 34,
+        "fields":{
+            "descripcion": "TIPUANI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 35,
+        "fields":{
+            "descripcion": "PALOS BLANCOS",
+            "codigo_departamento": "02",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 36,
+        "fields":{
+            "descripcion": "SORATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 37,
+        "fields":{
+            "descripcion": "LICOMA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 38,
+        "fields":{
+            "descripcion": "ACHACACHI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 39,
+        "fields":{
+            "descripcion": "BATALLAS",
+            "codigo_departamento": "02",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 40,
+        "fields":{
+            "descripcion": "DESAGUADERO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 41,
+        "fields":{
+            "descripcion": "ACHOCALLA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 42,
+        "fields":{
+            "descripcion": "GUANAY",
+            "codigo_departamento": "02",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 43,
+        "fields":{
+            "descripcion": "MAPIRI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 44,
+        "fields":{
+            "descripcion": "APOLO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 45,
+        "fields":{
+            "descripcion": "QUIME",
+            "codigo_departamento": "02",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 46,
+        "fields":{
+            "descripcion": "CAMPAMENTO COLQUIRI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 47,
+        "fields":{
+            "descripcion": "SICA SICA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 48,
+        "fields":{
+            "descripcion": "LAHUACHACA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 49,
+        "fields":{
+            "descripcion": "CALAMARCA (PIZACAVIÑA)",
+            "codigo_departamento": "02",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 50,
+        "fields":{
+            "descripcion": "COLQUENCHA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 51,
+        "fields":{
+            "descripcion": "CORIPATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 52,
+        "fields":{
+            "descripcion": "ARAPATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "29",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 53,
+        "fields":{
+            "descripcion": "SAN BUENA VENTURA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "30",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 54,
+        "fields":{
+            "descripcion": "MECAPACA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "31",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 55,
+        "fields":{
+            "descripcion": "CAQUIAVIRI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "32",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 56,
+        "fields":{
+            "descripcion": "PUERTO ACOSTA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "33",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 57,
+        "fields":{
+            "descripcion": "PUCARANI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "34",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 58,
+        "fields":{
+            "descripcion": "MOCOMOCO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "35",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 59,
+        "fields":{
+            "descripcion": "PUERTO CARABUCO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "36",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 60,
+        "fields":{
+            "descripcion": "CHUMA (MUÑECAS)",
+            "codigo_departamento": "02",
+            "codigo_localidad": "37",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 61,
+        "fields":{
+            "descripcion": "AYATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "38",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 62,
+        "fields":{
+            "descripcion": "AUCAPATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "39",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 63,
+        "fields":{
+            "descripcion": "PELECHUCO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "40",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 64,
+        "fields":{
+            "descripcion": "GUAQUI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "41",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 65,
+        "fields":{
+            "descripcion": "LURIBAY",
+            "codigo_departamento": "02",
+            "codigo_localidad": "42",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 66,
+        "fields":{
+            "descripcion": "INQUISIVI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "43",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 67,
+        "fields":{
+            "descripcion": "IRUPANA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "44",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 68,
+        "fields":{
+            "descripcion": "CHUMA (SUD YUNGAS)",
+            "codigo_departamento": "02",
+            "codigo_localidad": "45",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 69,
+        "fields":{
+            "descripcion": "LA ASUNTA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "46",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 70,
+        "fields":{
+            "descripcion": "CHARAZANI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "48",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 71,
+        "fields":{
+            "descripcion": "CURVA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "49",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 72,
+        "fields":{
+            "descripcion": "SAN PEDRO DE TIQUINA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "50",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 73,
+        "fields":{
+            "descripcion": "SAN PEDRO DE CURAHUARA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "51",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 74,
+        "fields":{
+            "descripcion": "COMUNIDAD SAN JOSE DE TIAHUANACU",
+            "codigo_departamento": "02",
+            "codigo_localidad": "52",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 75,
+        "fields":{
+            "descripcion": "HUAJCHILLA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "53",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 76,
+        "fields":{
+            "descripcion": "LAJA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "54",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 77,
+        "fields":{
+            "descripcion": "PUERTO PEREZ",
+            "codigo_departamento": "02",
+            "codigo_localidad": "55",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 78,
+        "fields":{
+            "descripcion": "TITO YUPANQUI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "56",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 79,
+        "fields":{
+            "descripcion": "COMANCHE",
+            "codigo_departamento": "02",
+            "codigo_localidad": "57",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 80,
+        "fields":{
+            "descripcion": "CORO CORO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "58",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 81,
+        "fields":{
+            "descripcion": "SAPAHAQUI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "59",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 82,
+        "fields":{
+            "descripcion": "COLLANA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "60",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 83,
+        "fields":{
+            "descripcion": "PALCA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "61",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 84,
+        "fields":{
+            "descripcion": "ANCORAIMES",
+            "codigo_departamento": "02",
+            "codigo_localidad": "62",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 85,
+        "fields":{
+            "descripcion": "YANACACHI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "63",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 86,
+        "fields":{
+            "descripcion": "AYO AYO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "64",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 87,
+        "fields":{
+            "descripcion": "CAIROMA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "65",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 88,
+        "fields":{
+            "descripcion": "CAJUATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "66",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 89,
+        "fields":{
+            "descripcion": "UMALA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "67",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 90,
+        "fields":{
+            "descripcion": "YACO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "68",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 91,
+        "fields":{
+            "descripcion": "ESCOMA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "69",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 92,
+        "fields":{
+            "descripcion": "HUMANATA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "70",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 93,
+        "fields":{
+            "descripcion": "CHURUBAMBA PACAJES",
+            "codigo_departamento": "02",
+            "codigo_localidad": "71",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 94,
+        "fields":{
+            "descripcion": "IXIAMAS",
+            "codigo_departamento": "02",
+            "codigo_localidad": "72",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 95,
+        "fields":{
+            "descripcion": "TIAWANACU",
+            "codigo_departamento": "02",
+            "codigo_localidad": "73",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 96,
+        "fields":{
+            "descripcion": "COCHABAMBA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 97,
+        "fields":{
+            "descripcion": "SACABA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 98,
+        "fields":{
+            "descripcion": "AIQUILE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 99,
+        "fields":{
+            "descripcion": "CAPINOTA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 100,
+        "fields":{
+            "descripcion": "PUNATA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 101,
+        "fields":{
+            "descripcion": "QUILLACOLLO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 102,
+        "fields":{
+            "descripcion": "VILLA TUNARI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 103,
+        "fields":{
+            "descripcion": "MIZQUE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 104,
+        "fields":{
+            "descripcion": "CLIZA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 105,
+        "fields":{
+            "descripcion": "COLOMI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 106,
+        "fields":{
+            "descripcion": "IVIRGARZAMA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 107,
+        "fields":{
+            "descripcion": "TIQUIPAYA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 108,
+        "fields":{
+            "descripcion": "CHIMORE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 109,
+        "fields":{
+            "descripcion": "CAVICAVINI (ECHUCANI)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 110,
+        "fields":{
+            "descripcion": "INDEPENDENCIA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 111,
+        "fields":{
+            "descripcion": "KERAYA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 112,
+        "fields":{
+            "descripcion": "TIQUIRPAYA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 113,
+        "fields":{
+            "descripcion": "TARATA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 114,
+        "fields":{
+            "descripcion": "ARANI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 115,
+        "fields":{
+            "descripcion": "IRPA IRPA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 116,
+        "fields":{
+            "descripcion": "UCUREÑA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 117,
+        "fields":{
+            "descripcion": "TOLATA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 118,
+        "fields":{
+            "descripcion": "ILLATACO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 119,
+        "fields":{
+            "descripcion": "IRONCOLLO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 120,
+        "fields":{
+            "descripcion": "EL PASO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 121,
+        "fields":{
+            "descripcion": "SIPE SIPE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 122,
+        "fields":{
+            "descripcion": "VILLA MONTENEGRO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 123,
+        "fields":{
+            "descripcion": "VINTO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "29",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 124,
+        "fields":{
+            "descripcion": "COMUNIDAD SEXTA PARTE (SUB CENTRAL VINTO)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "30",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 125,
+        "fields":{
+            "descripcion": "COMUNIDAD CHULLA (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "31",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 126,
+        "fields":{
+            "descripcion": "COLCAPIRHUA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "32",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 127,
+        "fields":{
+            "descripcion": "ETERAZAMA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "33",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 128,
+        "fields":{
+            "descripcion": "BULO BULO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "34",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 129,
+        "fields":{
+            "descripcion": "ENTRE RIOS",
+            "codigo_departamento": "03",
+            "codigo_localidad": "35",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 130,
+        "fields":{
+            "descripcion": "SAN BENITO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "36",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 131,
+        "fields":{
+            "descripcion": "SHINAHOTA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "37",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 132,
+        "fields":{
+            "descripcion": "TAPACARI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "38",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 133,
+        "fields":{
+            "descripcion": "TOTORA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "39",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 134,
+        "fields":{
+            "descripcion": "POCONA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "40",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 135,
+        "fields":{
+            "descripcion": "TIRAQUE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "41",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 136,
+        "fields":{
+            "descripcion": "ANZALDO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "42",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 137,
+        "fields":{
+            "descripcion": "OMEREQUE",
+            "codigo_departamento": "03",
+            "codigo_localidad": "43",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 138,
+        "fields":{
+            "descripcion": "POJO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "44",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 139,
+        "fields":{
+            "descripcion": "TOKO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "45",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 140,
+        "fields":{
+            "descripcion": "VACAS",
+            "codigo_departamento": "03",
+            "codigo_localidad": "46",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 141,
+        "fields":{
+            "descripcion": "VILLA RIVERO",
+            "codigo_departamento": "03",
+            "codigo_localidad": "47",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 142,
+        "fields":{
+            "descripcion": "AYOPAYA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "48",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 143,
+        "fields":{
+            "descripcion": "MOROCHATA",
+            "codigo_departamento": "03",
+            "codigo_localidad": "49",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 144,
+        "fields":{
+            "descripcion": "SANTIVAÑEZ",
+            "codigo_departamento": "03",
+            "codigo_localidad": "50",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 145,
+        "fields":{
+            "descripcion": "PUERTO VILLARROEL",
+            "codigo_departamento": "03",
+            "codigo_localidad": "51",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 146,
+        "fields":{
+            "descripcion": "ORURO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 147,
+        "fields":{
+            "descripcion": "CARACOLLO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 148,
+        "fields":{
+            "descripcion": "CHALLAPATA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 149,
+        "fields":{
+            "descripcion": "HUANUNI",
+            "codigo_departamento": "04",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 150,
+        "fields":{
+            "descripcion": "LA JOYA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 151,
+        "fields":{
+            "descripcion": "KAKACHACA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 152,
+        "fields":{
+            "descripcion": "POOPO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 153,
+        "fields":{
+            "descripcion": "MACHACAMARCA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 154,
+        "fields":{
+            "descripcion": "EUCALIPTUS",
+            "codigo_departamento": "04",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 155,
+        "fields":{
+            "descripcion": "SANTIAGO DE HUARI",
+            "codigo_departamento": "04",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 156,
+        "fields":{
+            "descripcion": "CURAHUARA DE CARANGAS",
+            "codigo_departamento": "04",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 157,
+        "fields":{
+            "descripcion": "SALINAS DE GARCI MENDOZA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 158,
+        "fields":{
+            "descripcion": "ANTEQUERA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 159,
+        "fields":{
+            "descripcion": "EL CHORO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 160,
+        "fields":{
+            "descripcion": "PAMPA AULLAGAS",
+            "codigo_departamento": "04",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 161,
+        "fields":{
+            "descripcion": "PAZÑA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 162,
+        "fields":{
+            "descripcion": "SABAYA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 163,
+        "fields":{
+            "descripcion": "SORACACHI",
+            "codigo_departamento": "04",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 164,
+        "fields":{
+            "descripcion": "TOLEDO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 165,
+        "fields":{
+            "descripcion": "TURCO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 166,
+        "fields":{
+            "descripcion": "SALINAS DE GARCI MENDOZA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 167,
+        "fields":{
+            "descripcion": "POTOSI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 168,
+        "fields":{
+            "descripcion": "ATOCHA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 169,
+        "fields":{
+            "descripcion": "CHAYANTA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 170,
+        "fields":{
+            "descripcion": "TUPIZA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 171,
+        "fields":{
+            "descripcion": "UYUNI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 172,
+        "fields":{
+            "descripcion": "VILLAZON",
+            "codigo_departamento": "05",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 173,
+        "fields":{
+            "descripcion": "BETANZOS",
+            "codigo_departamento": "05",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 174,
+        "fields":{
+            "descripcion": "COTAGAITA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 175,
+        "fields":{
+            "descripcion": "UNCIA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 176,
+        "fields":{
+            "descripcion": "LLALLAGUA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 177,
+        "fields":{
+            "descripcion": "PUNA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 178,
+        "fields":{
+            "descripcion": "SIGLO XX",
+            "codigo_departamento": "05",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 179,
+        "fields":{
+            "descripcion": "CATAVI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 180,
+        "fields":{
+            "descripcion": "SANTA BARBARA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 181,
+        "fields":{
+            "descripcion": "VITICHI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 182,
+        "fields":{
+            "descripcion": "SACACA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 183,
+        "fields":{
+            "descripcion": "SAN PEDRO",
+            "codigo_departamento": "05",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 184,
+        "fields":{
+            "descripcion": "ACASIO",
+            "codigo_departamento": "05",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 185,
+        "fields":{
+            "descripcion": "LLICA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 186,
+        "fields":{
+            "descripcion": "CAIZA D",
+            "codigo_departamento": "05",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 187,
+        "fields":{
+            "descripcion": "BELEN",
+            "codigo_departamento": "05",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 188,
+        "fields":{
+            "descripcion": "COLCHA K",
+            "codigo_departamento": "05",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 189,
+        "fields":{
+            "descripcion": "CHAQUI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 190,
+        "fields":{
+            "descripcion": "YOCALLA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 191,
+        "fields":{
+            "descripcion": "TORO TORO",
+            "codigo_departamento": "05",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 192,
+        "fields":{
+            "descripcion": "COLQUECHACA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 193,
+        "fields":{
+            "descripcion": "POCOATA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 194,
+        "fields":{
+            "descripcion": "RAVELO",
+            "codigo_departamento": "05",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 195,
+        "fields":{
+            "descripcion": "PORCO",
+            "codigo_departamento": "05",
+            "codigo_localidad": "29",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 196,
+        "fields":{
+            "descripcion": "SAN CRISTOBAL",
+            "codigo_departamento": "05",
+            "codigo_localidad": "30",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 197,
+        "fields":{
+            "descripcion": "TARIJA",
+            "codigo_departamento": "06",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 198,
+        "fields":{
+            "descripcion": "BERMEJO",
+            "codigo_departamento": "06",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 199,
+        "fields":{
+            "descripcion": "ENTRE RIOS",
+            "codigo_departamento": "06",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 200,
+        "fields":{
+            "descripcion": "VILLAMONTES",
+            "codigo_departamento": "06",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 201,
+        "fields":{
+            "descripcion": "YACUIBA",
+            "codigo_departamento": "06",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 202,
+        "fields":{
+            "descripcion": "TOLOMOSA GRANDE",
+            "codigo_departamento": "06",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 203,
+        "fields":{
+            "descripcion": "PADCAYA",
+            "codigo_departamento": "06",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 204,
+        "fields":{
+            "descripcion": "SAN LORENZO",
+            "codigo_departamento": "06",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 205,
+        "fields":{
+            "descripcion": "EL PUENTE",
+            "codigo_departamento": "06",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 206,
+        "fields":{
+            "descripcion": "VALLE DE CONCEPCION",
+            "codigo_departamento": "06",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 207,
+        "fields":{
+            "descripcion": "CARAPARI",
+            "codigo_departamento": "06",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 208,
+        "fields":{
+            "descripcion": "SANTA CRUZ",
+            "codigo_departamento": "07",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 209,
+        "fields":{
+            "descripcion": "CAMIRI",
+            "codigo_departamento": "07",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 210,
+        "fields":{
+            "descripcion": "MONTERO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 211,
+        "fields":{
+            "descripcion": "MINERO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 212,
+        "fields":{
+            "descripcion": "PORTACHUELO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 213,
+        "fields":{
+            "descripcion": "PUERTO SUAREZ",
+            "codigo_departamento": "07",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 214,
+        "fields":{
+            "descripcion": "ROBORE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 215,
+        "fields":{
+            "descripcion": "SAN IGNACIO DE VELASCO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 216,
+        "fields":{
+            "descripcion": "SAN MATIAS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 217,
+        "fields":{
+            "descripcion": "VALLEGRANDE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 218,
+        "fields":{
+            "descripcion": "SAN JOSE DE CHIQUITOS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 219,
+        "fields":{
+            "descripcion": "COMARAPA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 220,
+        "fields":{
+            "descripcion": "SAMAIPATA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 221,
+        "fields":{
+            "descripcion": "BUENA VISTA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 222,
+        "fields":{
+            "descripcion": "CONCEPCION",
+            "codigo_departamento": "07",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 223,
+        "fields":{
+            "descripcion": "WARNES",
+            "codigo_departamento": "07",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 224,
+        "fields":{
+            "descripcion": "SAN JULIAN",
+            "codigo_departamento": "07",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 225,
+        "fields":{
+            "descripcion": "ARROYO CONCEPCION",
+            "codigo_departamento": "07",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 226,
+        "fields":{
+            "descripcion": "EL TORNO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 227,
+        "fields":{
+            "descripcion": "PUERTO QUIJARRO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 228,
+        "fields":{
+            "descripcion": "SAN JUAN DE YAPACANI",
+            "codigo_departamento": "07",
+            "codigo_localidad": "22",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 229,
+        "fields":{
+            "descripcion": "COTOCA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "23",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 230,
+        "fields":{
+            "descripcion": "GUARAYOS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 231,
+        "fields":{
+            "descripcion": "MAIRANA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 232,
+        "fields":{
+            "descripcion": "SAN PEDRO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 233,
+        "fields":{
+            "descripcion": "SAIPINA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 234,
+        "fields":{
+            "descripcion": "SAN ISIDRO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 235,
+        "fields":{
+            "descripcion": "LOS NEGROS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "29",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 236,
+        "fields":{
+            "descripcion": "CAMPANERO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "30",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 237,
+        "fields":{
+            "descripcion": "MAPAISO DE LAS PIEDADES",
+            "codigo_departamento": "07",
+            "codigo_localidad": "31",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 238,
+        "fields":{
+            "descripcion": "PUERTO PAILAS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "32",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 239,
+        "fields":{
+            "descripcion": "LA GUARDIA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "33",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 240,
+        "fields":{
+            "descripcion": "VILLA SIMON BOLIVAR",
+            "codigo_departamento": "07",
+            "codigo_localidad": "34",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 241,
+        "fields":{
+            "descripcion": "EL CARMEN (PROV. ANDRES IBAÑEZ)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "35",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 242,
+        "fields":{
+            "descripcion": "KM 12",
+            "codigo_departamento": "07",
+            "codigo_localidad": "36",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 243,
+        "fields":{
+            "descripcion": "SAN JOSE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "37",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 244,
+        "fields":{
+            "descripcion": "SANTA RITA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "38",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 245,
+        "fields":{
+            "descripcion": "JOROCHITO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "39",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 246,
+        "fields":{
+            "descripcion": "LIMONCITO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "40",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 247,
+        "fields":{
+            "descripcion": "VALLE SANCHEZ",
+            "codigo_departamento": "07",
+            "codigo_localidad": "41",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 248,
+        "fields":{
+            "descripcion": "OKINAWA I",
+            "codigo_departamento": "07",
+            "codigo_localidad": "42",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 249,
+        "fields":{
+            "descripcion": "SAN MIGUEL",
+            "codigo_departamento": "07",
+            "codigo_localidad": "43",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 250,
+        "fields":{
+            "descripcion": "SAN RAFAEL",
+            "codigo_departamento": "07",
+            "codigo_localidad": "44",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 251,
+        "fields":{
+            "descripcion": "SAN CARLOS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "45",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 252,
+        "fields":{
+            "descripcion": "SANTA FE DE YAPACANI",
+            "codigo_departamento": "07",
+            "codigo_localidad": "46",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 253,
+        "fields":{
+            "descripcion": "YAPACANI",
+            "codigo_departamento": "07",
+            "codigo_localidad": "47",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 254,
+        "fields":{
+            "descripcion": "NUEVA ESPERANZA (COLONIA MENONITA)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "48",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 255,
+        "fields":{
+            "descripcion": "PAILON",
+            "codigo_departamento": "07",
+            "codigo_localidad": "49",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 256,
+        "fields":{
+            "descripcion": "COLONIA MANITOBA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "50",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 257,
+        "fields":{
+            "descripcion": "COLONIA MENONITA BELICE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "51",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 258,
+        "fields":{
+            "descripcion": "SANTA ROSA DEL SARA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "52",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 259,
+        "fields":{
+            "descripcion": "LA BELGICA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "53",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 260,
+        "fields":{
+            "descripcion": "CHARAGUA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "54",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 261,
+        "fields":{
+            "descripcion": "COLONIA DURANGO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "55",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 262,
+        "fields":{
+            "descripcion": "COLONIA PINONDI",
+            "codigo_departamento": "07",
+            "codigo_localidad": "56",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 263,
+        "fields":{
+            "descripcion": "ABAPO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "57",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 264,
+        "fields":{
+            "descripcion": "COLONIA MENONITA RIVAS PALACIOS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "58",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 265,
+        "fields":{
+            "descripcion": "COLONIA MENONITA SWIFT CURRENT",
+            "codigo_departamento": "07",
+            "codigo_localidad": "59",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 266,
+        "fields":{
+            "descripcion": "BOYUIBE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "60",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 267,
+        "fields":{
+            "descripcion": "GENERAL SAAVEDRA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "62",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 268,
+        "fields":{
+            "descripcion": "CHANE INDEPENDENCIA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "63",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 269,
+        "fields":{
+            "descripcion": "PUESTO FERNANDEZ ALONZO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "64",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 270,
+        "fields":{
+            "descripcion": "HARDEMAN",
+            "codigo_departamento": "07",
+            "codigo_localidad": "65",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 271,
+        "fields":{
+            "descripcion": "SAN JAVIER",
+            "codigo_departamento": "07",
+            "codigo_localidad": "66",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 272,
+        "fields":{
+            "descripcion": "SAN RAMON",
+            "codigo_departamento": "07",
+            "codigo_localidad": "67",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 273,
+        "fields":{
+            "descripcion": "CENTRAL 2",
+            "codigo_departamento": "07",
+            "codigo_localidad": "68",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 274,
+        "fields":{
+            "descripcion": "CUATRO CAÑADAS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "69",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 275,
+        "fields":{
+            "descripcion": "COLONIA MENONITA VALLE ESPERANZA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "70",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 276,
+        "fields":{
+            "descripcion": "EL CARMEN (PROV. GERMAN BUSCH)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "72",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 277,
+        "fields":{
+            "descripcion": "URUBICHA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "73",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 278,
+        "fields":{
+            "descripcion": "EL PUENTE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "74",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 279,
+        "fields":{
+            "descripcion": "SANTA ROSA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "75",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 280,
+        "fields":{
+            "descripcion": "LAGUNILLAS (PROV. CORDILLERA)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "76",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 281,
+        "fields":{
+            "descripcion": "CABEZAS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "77",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 282,
+        "fields":{
+            "descripcion": "CUEVO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "78",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 283,
+        "fields":{
+            "descripcion": "GUTIERREZ",
+            "codigo_departamento": "07",
+            "codigo_localidad": "79",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 284,
+        "fields":{
+            "descripcion": "COMUNIDAD LAGUNILLAS (PROV. VALLEGRANDE)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "80",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 285,
+        "fields":{
+            "descripcion": "SAN ANTONIO DE LOMERIO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "81",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 286,
+        "fields":{
+            "descripcion": "MINEROS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "82",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 287,
+        "fields":{
+            "descripcion": "TRINIDAD",
+            "codigo_departamento": "08",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 288,
+        "fields":{
+            "descripcion": "GUAYARAMERIN",
+            "codigo_departamento": "08",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 289,
+        "fields":{
+            "descripcion": "RIBERALTA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 290,
+        "fields":{
+            "descripcion": "RURRENABAQUE",
+            "codigo_departamento": "08",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 291,
+        "fields":{
+            "descripcion": "SANTA ROSA DE YACUMA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 292,
+        "fields":{
+            "descripcion": "SAN BORJA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "06",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 293,
+        "fields":{
+            "descripcion": "SAN JOAQUIN",
+            "codigo_departamento": "08",
+            "codigo_localidad": "07",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 294,
+        "fields":{
+            "descripcion": "REYES",
+            "codigo_departamento": "08",
+            "codigo_localidad": "08",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 295,
+        "fields":{
+            "descripcion": "MAGDALENA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "09",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 296,
+        "fields":{
+            "descripcion": "SANTA ANA DEL YACUMA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "10",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 297,
+        "fields":{
+            "descripcion": "SAN IGNACIO DE MOXOS",
+            "codigo_departamento": "08",
+            "codigo_localidad": "11",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 298,
+        "fields":{
+            "descripcion": "YUCUMO",
+            "codigo_departamento": "08",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 299,
+        "fields":{
+            "descripcion": "EXALTACION",
+            "codigo_departamento": "08",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 300,
+        "fields":{
+            "descripcion": "SAN RAMON",
+            "codigo_departamento": "08",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 301,
+        "fields":{
+            "descripcion": "BELLA VISTA",
+            "codigo_departamento": "08",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 302,
+        "fields":{
+            "descripcion": "BAURES",
+            "codigo_departamento": "08",
+            "codigo_localidad": "17",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 303,
+        "fields":{
+            "descripcion": "HUACARAJE",
+            "codigo_departamento": "08",
+            "codigo_localidad": "18",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 304,
+        "fields":{
+            "descripcion": "SAN ANDRES",
+            "codigo_departamento": "08",
+            "codigo_localidad": "19",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 305,
+        "fields":{
+            "descripcion": "SAN JAVIER",
+            "codigo_departamento": "08",
+            "codigo_localidad": "20",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 306,
+        "fields":{
+            "descripcion": "COBIJA",
+            "codigo_departamento": "09",
+            "codigo_localidad": "01",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 307,
+        "fields":{
+            "descripcion": "PUERTO RICO",
+            "codigo_departamento": "09",
+            "codigo_localidad": "02",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 308,
+        "fields":{
+            "descripcion": "COMUNIDAD FILADELFIA",
+            "codigo_departamento": "09",
+            "codigo_localidad": "03",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 309,
+        "fields":{
+            "descripcion": "NO DECLARADO",
+            "codigo_departamento": "00",
+            "codigo_localidad": "00",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 310,
+        "fields":{
+            "descripcion": "SOPACHUY",
+            "codigo_departamento": "01",
+            "codigo_localidad": "29",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 311,
+        "fields":{
+            "descripcion": "CHARAÑA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "74",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 312,
+        "fields":{
+            "descripcion": "TACACHIRA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "75",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 313,
+        "fields":{
+            "descripcion": "COMUNIDAD TACAMARA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "76",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 314,
+        "fields":{
+            "descripcion": "MALLA (POTOJANI)",
+            "codigo_departamento": "02",
+            "codigo_localidad": "77",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 315,
+        "fields":{
+            "descripcion": "CALA CALA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "78",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 316,
+        "fields":{
+            "descripcion": "VILLA EL CARMEN CALUYO",
+            "codigo_departamento": "02",
+            "codigo_localidad": "79",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 317,
+        "fields":{
+            "descripcion": "MACHACAMARCA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "80",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 318,
+        "fields":{
+            "descripcion": "CHUQUINI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "81",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 319,
+        "fields":{
+            "descripcion": "COMUNIDAD SANTA ROSA DE MAPIRI",
+            "codigo_departamento": "02",
+            "codigo_localidad": "82",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 320,
+        "fields":{
+            "descripcion": "TUMUPASA",
+            "codigo_departamento": "02",
+            "codigo_localidad": "83",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 321,
+        "fields":{
+            "descripcion": "POCPO COLLO (OTB) (PIÑAMI CHICO OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "52",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 322,
+        "fields":{
+            "descripcion": "COTAPACHI (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "53",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 323,
+        "fields":{
+            "descripcion": "PANDOJA (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "54",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 324,
+        "fields":{
+            "descripcion": "SUTICOLLO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "55",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 325,
+        "fields":{
+            "descripcion": "PAROTANI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "56",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 326,
+        "fields":{
+            "descripcion": "MALLCO CHAPI (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "57",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 327,
+        "fields":{
+            "descripcion": "VINTO CHICO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "58",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 328,
+        "fields":{
+            "descripcion": "COLLPAPAMPA (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "59",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 329,
+        "fields":{
+            "descripcion": "COMUNIDAD CHAPISIRCA (CENTRAL CHAPISIRCA)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "60",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 330,
+        "fields":{
+            "descripcion": "CUATRO ESQUINAS (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "61",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 331,
+        "fields":{
+            "descripcion": "ENCANTO PAMPA (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "62",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 332,
+        "fields":{
+            "descripcion": "MONTECILLO BAJO (OTB) (MOLINOS)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "63",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 333,
+        "fields":{
+            "descripcion": "SANTIAGUILLO (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "64",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 334,
+        "fields":{
+            "descripcion": "VILLA ESPERANZA (OTB)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "65",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 335,
+        "fields":{
+            "descripcion": "COMUNIDAD CATACHILLA ALTA (CENTRAL EL MORRO)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "66",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 336,
+        "fields":{
+            "descripcion": "COMUNIDAD CATACHILLA BAJA (CENTRAL EL MORRO)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "67",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 337,
+        "fields":{
+            "descripcion": "VALLE SACTA (CENTRAL VALLE SACTA)",
+            "codigo_departamento": "03",
+            "codigo_localidad": "68",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 338,
+        "fields":{
+            "descripcion": "TACACHI",
+            "codigo_departamento": "03",
+            "codigo_localidad": "69",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 339,
+        "fields":{
+            "descripcion": "SAN GABRIEL",
+            "codigo_departamento": "03",
+            "codigo_localidad": "70",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 340,
+        "fields":{
+            "descripcion": "TAMBO QUEMADO",
+            "codigo_departamento": "04",
+            "codigo_localidad": "24",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 341,
+        "fields":{
+            "descripcion": "PISIGA BOLIVAR",
+            "codigo_departamento": "04",
+            "codigo_localidad": "25",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 342,
+        "fields":{
+            "descripcion": "HUACHACALLA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "26",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 343,
+        "fields":{
+            "descripcion": "CRUZ DE MACHACAMARCA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "27",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 344,
+        "fields":{
+            "descripcion": "VILLA ESPERANZA",
+            "codigo_departamento": "04",
+            "codigo_localidad": "28",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 345,
+        "fields":{
+            "descripcion": "AYLLU COLLANA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "31",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 346,
+        "fields":{
+            "descripcion": "AYLLU SULLCAINARI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "32",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 347,
+        "fields":{
+            "descripcion": "AYLLU URINSAYA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "33",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 348,
+        "fields":{
+            "descripcion": "CABILDO EL CHACO (AYLLU MAÑU)",
+            "codigo_departamento": "05",
+            "codigo_localidad": "34",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 349,
+        "fields":{
+            "descripcion": "MACHA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "35",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 350,
+        "fields":{
+            "descripcion": "SALINAS ALTA",
+            "codigo_departamento": "05",
+            "codigo_localidad": "36",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 351,
+        "fields":{
+            "descripcion": "ULUCHI",
+            "codigo_departamento": "05",
+            "codigo_localidad": "37",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 352,
+        "fields":{
+            "descripcion": "LA GRAMPA",
+            "codigo_departamento": "06",
+            "codigo_localidad": "12",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 353,
+        "fields":{
+            "descripcion": "SAN ISIDRO",
+            "codigo_departamento": "06",
+            "codigo_localidad": "13",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 354,
+        "fields":{
+            "descripcion": "CAMPO GRANDE",
+            "codigo_departamento": "06",
+            "codigo_localidad": "14",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 355,
+        "fields":{
+            "descripcion": "PALMAR CHICO",
+            "codigo_departamento": "06",
+            "codigo_localidad": "15",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 356,
+        "fields":{
+            "descripcion": "VALLE DE CONCEPCION",
+            "codigo_departamento": "06",
+            "codigo_localidad": "16",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 357,
+        "fields":{
+            "descripcion": "LA ANGOSTURA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "83",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 358,
+        "fields":{
+            "descripcion": "TRES CRUCES",
+            "codigo_departamento": "07",
+            "codigo_localidad": "84",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 359,
+        "fields":{
+            "descripcion": "MONTERO HOYOS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "85",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 360,
+        "fields":{
+            "descripcion": "COLONIA MENONITA SANTA RITA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "86",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 361,
+        "fields":{
+            "descripcion": "PAURITO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "87",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 362,
+        "fields":{
+            "descripcion": "ARROYITO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "88",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 363,
+        "fields":{
+            "descripcion": "DON LORENZO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "89",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 364,
+        "fields":{
+            "descripcion": "EL BISITO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "90",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 365,
+        "fields":{
+            "descripcion": "LA CRUCEÑA (LAS BARRERAS)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "91",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 366,
+        "fields":{
+            "descripcion": "LA ENCONADA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "92",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 367,
+        "fields":{
+            "descripcion": "TAROPE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "93",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 368,
+        "fields":{
+            "descripcion": "PEDRO LORENZO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "94",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 369,
+        "fields":{
+            "descripcion": "PUERTO RICO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "95",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 370,
+        "fields":{
+            "descripcion": "SANTA MARTHA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "96",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 371,
+        "fields":{
+            "descripcion": "COMUNIDAD TIQUIPAYA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "97",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 372,
+        "fields":{
+            "descripcion": "SAN LUIS",
+            "codigo_departamento": "07",
+            "codigo_localidad": "98",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 373,
+        "fields":{
+            "descripcion": "BUEN RETIRO",
+            "codigo_departamento": "07",
+            "codigo_localidad": "99",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 374,
+        "fields":{
+            "descripcion": "CAÑADA LARGA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A0",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 375,
+        "fields":{
+            "descripcion": "VALLE NUEVO (COLONIA MENONITA)",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A1",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 376,
+        "fields":{
+            "descripcion": "TRES CRUCES",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A2",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 377,
+        "fields":{
+            "descripcion": "LOMA ALTA",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A3",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 378,
+        "fields":{
+            "descripcion": "PUENTE CAIMANES",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A4",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 379,
+        "fields":{
+            "descripcion": "SAGRADO CORAZON",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A5",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 380,
+        "fields":{
+            "descripcion": "CENTRAL 3",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A6",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 381,
+        "fields":{
+            "descripcion": "CENTRAL 4 A",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A7",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 382,
+        "fields":{
+            "descripcion": "CENTRAL 4 B",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A8",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 383,
+        "fields":{
+            "descripcion": "YAGUARU",
+            "codigo_departamento": "07",
+            "codigo_localidad": "A9",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 384,
+        "fields":{
+            "descripcion": "YOTAU",
+            "codigo_departamento": "07",
+            "codigo_localidad": "B0",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 385,
+        "fields":{
+            "descripcion": "AGUAS CALIENTE",
+            "codigo_departamento": "07",
+            "codigo_localidad": "B1",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 386,
+        "fields":{
+            "descripcion": "PUENTE SAN PABLO",
+            "codigo_departamento": "08",
+            "codigo_localidad": "21",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 387,
+        "fields":{
+            "descripcion": "EL SENA",
+            "codigo_departamento": "09",
+            "codigo_localidad": "04",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    },
+    {
+        "model":"zona.localidad",
+        "pk": 388,
+        "fields":{
+            "descripcion": "PORVENIR",
+            "codigo_departamento": "09",
+            "codigo_localidad": "05",
+            "usuario_actualizacion": 1,
+            "sucursal_creacion": 100,
+            "creado_en": "2022-10-12",
+            "actualizado_en": "2022-10-12",
+            "eliminado_en": null         
+        }
+    }
+]

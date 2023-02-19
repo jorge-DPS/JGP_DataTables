@@ -1,0 +1,24 @@
+version: '3.4'
+
+volumes:
+  mariadb_data:
+
+services:
+  django:
+    image: xiberty/wise-api:latest
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - .envs/prod/django
+      - .envs/prod/mariadb
+
+  db:
+    env_file:
+      - .envs/prod/mariadb
+
+    volumes:
+      - mariadb_data:/var/lib/mysql/data
+      - ./tmp/db/backups:/backups
+    ports:
+      - "3307:3306"

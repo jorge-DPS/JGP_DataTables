@@ -1,0 +1,79 @@
+{% extends 'version2/layouts/base8.html' %}
+{% load static %}
+{% block title %}Perfil{% endblock %}
+{% block title_subheader %}ZONAS{% endblock %}
+{% block subtitle_subheader %}Lista{% endblock %}
+
+{% block extra_css %}
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+{% endblock extra_css %}
+
+
+{% load static %}
+
+<!--begin::Post-->
+{% block content_body %}
+<!--begin::Post-->
+<div class="post d-flex flex-column-fluid" id="kt_personas">
+  <!--begin::Container--> 
+  <div id="kt_content_container" class="container-xxl">
+    
+    <!--begin::Entry-->
+    <div class="d-flex flex-column-fluid">
+      <!--begin::Container-->
+      <div class="container p-1">
+        <!--begin::Card-->
+        <div class="card card-custom gutter-b">
+          <div class="card-body pl-1 pr-1">
+          
+              <!--begin: Form Depositos -->
+              <div id="formularioZonas">
+                {% block content_tabla %}
+                    
+                {% endblock content_tabla %}
+              </div>
+            <!--end: Form Depositos-->
+          </div>
+        </div>
+
+        <!--begin::Modal-->
+        <!--end::Modal-->
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!--end::Post-->  
+
+{% endblock content_body %}
+
+
+{% block vue_js %}
+
+
+
+
+<script>
+  var csrftoken = '{{ csrf_token }}';
+  var URL_LIST = "{% url 'zona:zona' %}"
+  {% if zona %}
+  let ZONA_ID = '{{ zona.id }}'
+  console.log("=============>",ZONA_ID)
+  
+  {% endif %}
+  
+  
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+//<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/i18n/es.js"></script>
+<script src="{% static 'app/vuejs/zona.js' %}"></script>
+<script src="{% static 'app/vuejs/validations/form_zonas.js' %}"></script>
+<script src="{% static 'app/vuejs/select2.js' %}"></script>
+<script src="{% static 'metronic8/assets/plugins/global/plugins.bundle.js' %}"></script>
+<script src="{% static 'metronic8/assets/plugins/custom/datatables/datatables.bundle.js' %}"></script>
+
+{% endblock vue_js %}
+

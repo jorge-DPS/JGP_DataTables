@@ -1,0 +1,38 @@
+{% load static i18n %}
+
+<!--begin::Footer-->
+<div class="footer py-6 d-flex flex-lg-column" id="kt_footer" style="background-color: #D8BB4A;">
+    <!--begin::Container-->
+    <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <!--begin::Copyright-->
+        <div class="order-2 order-md-1">
+            <span class="text-dark-75 font-weight-bold mr-2">2021©</span>
+            <a href="{% url 'home' %}" class="text-dark-75 text-hover-primary">JGP SA</a>
+        </div>
+        <!--end::Copyright-->
+        <!--begin::Nav-->
+        <div class="nav nav-dark">
+            <!--a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
+            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
+            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-0">Contact</a-->
+        </div>
+        <!--end::Nav-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::Footer-->
+
+<!--footer>
+    <div class="rights">
+        Copyright © 2020 <a href="{{ project_owner_domain }}">{{ project_owner }}</a> - {% trans 'All rights reserved' %}
+    </div>
+    <div class="info">
+        <a href="mailto:{{ project_support_email }}">{{ project_support_email }}</a>
+        <span class="separator">|</span>
+        <a href="tel:{{ project_support_phone }}">{{ project_support_phone }}</a>
+        <span class="separator">|</span>
+        <a href="{{ project_terms_url }}">
+            {% trans 'Terms of use' %}
+        </a>
+    </div>
+</footer-->

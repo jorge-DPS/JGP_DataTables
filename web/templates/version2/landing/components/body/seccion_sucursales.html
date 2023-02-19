@@ -1,0 +1,60 @@
+{% load static %}
+
+
+
+<!--begin::Sucursal Section-->
+<div class="mt-15 mb-15 position-relative z-index-2" id="sucursales">
+  <!--begin::Container-->
+  <div class="container">
+    <!--begin::Heading-->
+    <div class="text-center mb-17">
+      <!--begin::Title-->
+      <h3 class="fs-2hx text-dark mb-5" >Nuestras sucursales</h3>
+      <!--end::Title-->
+    </div>
+    <!--end::Heading-->
+    <!--begin::Row-->
+    {% verbatim %}
+    <div class="row gy-10 mb-md-15">
+      <!--begin::Col-->
+      <div v-for="sucursal in lista_sucursales" class="col-md-3 px-5">
+        <div class="fondo-sucursales card card-flush py-4 color-Oscuro-Empresa" 
+        @click="openUbicacionModal(sucursal.punto_gps, sucursal.nombre)"  style="cursor: pointer;">
+          <!--begin::Card header-->
+          
+          <div class="card-header">
+            <!--begin::Card title-->
+            
+            <div class="card-title ">
+              <i class="bi bi-geo-alt-fill text-warning"></i>
+              <h2 class="text-white">&nbsp{{ sucursal.nombre  }} </h2>
+            </div>
+            <!--end::Card title-->
+          </div>
+          <!--end::Card header-->
+            <!--begin::Card body-->
+            <div class="card-body pt-0">
+              <div class="text-white">
+                {{ sucursal.direccion }}
+              </div>
+              
+              <div class="text-white py-5"> <i class="bi bi-telephone text-warning"></i> {{ sucursal.telefono }} </div>
+              <a data-bs-toggle="modal" class="text-white" data-bs-target="#kt_modal_2" 
+                  style="cursor: pointer;" @click="openUbicacionModal(sucursal.punto_gps, sucursal.nombre)">
+                <i class="bi bi-map text-warning" ></i> 
+                <span>Ver mapa</span>
+              </a>
+            </div>
+            <!--end::Card body-->
+        </div>
+      </div>
+      
+    </div>
+  
+    {% endverbatim %}
+    <!--end::Row-->
+  </div>
+  <!--end::Container-->
+</div>
+<!--end::Testimonials Section-->
+ 

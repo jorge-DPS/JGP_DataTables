@@ -1,0 +1,893 @@
+{% extends "layouts/base_app.html" %}
+{% load static i18n %}
+
+{% block title %}{% trans 'JGP' %}{% endblock %}
+{% block meta_keywords %}
+<meta name="keywords" content="prestamo, prestamo de dinero, prestamo de dinero en bolivia, productos online, productos a plazo, crédito, cooperativa"> 
+<meta name="facebook-domain-verification" content="qc262wdofwc10shj4iykkwo7271bcu" />
+{% endblock %}
+{% block css_extra %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+{% endblock %}
+
+{% block container %}
+<!--begin::Main-->
+<!--begin::Header-->
+{% include 'layouts/partials/header_landing.html'%}
+    
+  <div class="pt-0 d-flex flex-column flex-column-fluid" id="id_landing">
+    <!-- CALL TO ACTION -->
+    <div class="splide mb-5">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="bg-image d-flex flex-row-fluid bgi-size-cover bgi-position-initial"
+              style="background-image: url({% static '/landing/image1.png' %}); background-position: center;
+              background-repeat: no-repeat; background-size: cover;">
+              {% include "layouts/partials/landing_content.html" %}
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="bg-image d-flex flex-row-fluid bgi-size-cover bgi-position-initial"
+              style="background-image: url({% static '/landing/image2.png' %}) ; background-position: center;
+              background-repeat: no-repeat; background-size: cover;">
+              <div class="container">
+                <div class="d-flex align-items-stretch text-right flex-column py-40 mt-20 mr-10">
+                    <!--begin::Heading-->
+                    <h3 class="text-dark-75 font-weight-bolder mb-5 display-4">Préstamos para</h3>
+                    <h1 class="text-dark font-weight-bolder mb-5 display-3">Asalariados</h1>
+                    <blockquote class="blockquote text-right mb-12">
+                        <p class="text-dark mb-0 font-size-h2">Bienvenido a <br> Jesús del Gran Poder S.A.</p>
+                        <footer class="blockquote-footer font-size-h4">Queremos ayudarte a 
+                            <cite title="Source Title ">cumplir tus sueños</cite>
+                        </footer>
+                    </blockquote>
+                    <!--end::Heading-->
+                    <!--begin::Input-->
+                   {% comment %}  <div class="d-flex justify-content-between">
+                      <span class=""></span>
+                      <a href="{% url 'contabilidad:solicitud-credito' %}"
+                          class="btn btn-success font-weight-bolder w-40 h-auto py-7 px-7 font-size-h6">
+                        <i class="la la-money-bill-wave icon-xl"></i>
+                        Solicita un prestamo
+                      </a>
+                    </div> {% endcomment %}
+                    <!--end::Input-->
+                </div>
+                <div id="kt_scrolldown" class="scrolldown"></div>
+                <a href="#skills" class="btn btn-icon btn-lg btn-light-primary pulse pulse-primary mr-5 mb-10">
+                    <i class="flaticon2-arrow-down"></i>
+                    <span class="pulse-ring"></span>
+                </a>
+              </div>
+            </div>
+          </li>   
+          <li class="splide__slide">
+            <div class="d-flex flex-row-fluid bgi-size-cover bgi-position-initial"
+              style="background-image: url({% static '/landing/image3.png' %}) ; background-position: center;
+              background-repeat: no-repeat; background-size: cover;">
+              <div class="container">
+                <div class="d-flex align-items-stretch text-right flex-column py-40 mt-20 mr-10">
+                    <!--begin::Heading-->
+                    <h3 class="text-dark-75 font-weight-bolder mb-5 display-4">Muchos productos</h3>
+                    <span class="text-dark-75 font-weight-normal mb-5 font-size-h3">que puedes pagar</span>
+                    <h1 class="text-dark font-weight-bolder mb-5 display-3">En cuotas</h1>
+                    <blockquote class="blockquote text-right mb-12">
+                        <p class="text-dark mb-0 font-size-h2">Bienvenido a <br> Jesús del Gran Poder S.A.</p>
+                        <footer class="blockquote-footer text-white font-size-h4">Queremos ayudarte a 
+                            <cite title="Source Title ">cumplir tus sueños</cite>
+                        </footer>
+                    </blockquote>
+                    <!--end::Heading-->
+                    <!--begin::Input-->
+                    {% comment %} <div class="d-flex justify-content-between">
+                      <span class=""></span>
+                      <a href="{% url 'contabilidad:solicitud-credito' %}"
+                          class="btn btn-success font-weight-bolder w-40 h-auto py-7 px-7 font-size-h6">
+                        <i class="la la-money-bill-wave icon-xl"></i>
+                        Solicita un prestamo
+                      </a>
+                    </div> {% endcomment %}
+                    <!--end::Input-->
+                </div>
+                <div id="kt_scrolldown" class="scrolldown"></div>
+                <a href="#skills" class="btn btn-icon btn-lg btn-light-primary pulse pulse-primary mr-5 mb-10">
+                    <i class="flaticon2-arrow-down"></i>
+                    <span class="pulse-ring"></span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="d-flex flex-row-fluid bgi-size-cover bgi-position-initial"
+              style="background-image: url({% static '/landing/image4.png' %}) ; background-position: center;
+              background-repeat: no-repeat; background-size: cover;">
+              {% include "layouts/partials/landing_content.html" %}
+            </div>
+          </li>                                                
+          <li class="splide__slide">
+            <div class="d-flex flex-row-fluid bgi-size-cover bgi-position-initial"
+              style="background-image: url({% static '/landing/image5.png' %}) ; background-position: center;
+              background-repeat: no-repeat; background-size: cover;">
+              <div class="container">
+                <div class="d-flex align-items-stretch text-right flex-column py-40 mt-20 mr-10">
+                    <!--begin::Heading-->
+                    <h3 class="text-dark-75 font-weight-bolder mb-5 display-4">Préstamos para</h3>
+                    <h1 class="text-dark font-weight-bolder mb-5 display-3">Transportistas</h1>
+                    <blockquote class="blockquote text-right mb-12">
+                        <p class="text-dark mb-0 font-size-h2">Bienvenido a <br> Jesús del Gran Poder S.A.</p>
+                        <footer class="blockquote-footer text-warning font-size-h4">Queremos ayudarte a 
+                            <cite title="Source Title ">cumplir tus sueños</cite>
+                        </footer>
+                    </blockquote>
+                    <!--end::Heading-->
+                    <!--begin::Input-->
+                    {% comment %} <div class="d-flex justify-content-between">
+                      <span class=""></span>
+                      <a href="{% url 'contabilidad:solicitud-credito' %}"
+                          class="btn btn-success font-weight-bolder w-40 h-auto py-7 px-7 font-size-h6">
+                        <i class="la la-money-bill-wave icon-xl"></i>
+                        Solicita un prestamo
+                      </a>
+                    </div> {% endcomment %}
+                    <!--end::Input-->
+                </div>
+                <div id="kt_scrolldown" class="scrolldown"></div>
+                <a href="#skills" class="btn btn-icon btn-lg btn-light-primary pulse pulse-primary mr-5 mb-10">
+                    <i class="flaticon2-arrow-down"></i>
+                    <span class="pulse-ring"></span>
+                </a>
+              </div>
+            </div>            
+          </li>
+        </ul>        
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    {% include 'landings/skills.html' %}
+    
+    <!-- REQUISITOS -->
+    <div class="bg-light-warning" id="requisitos">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-danger"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-danger"></li>
+        </ol>
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active px-20">
+            <!--begin:: REQUISITOS CREDITO - PRODUCTO CREDITO -->
+            <div class="container my-20">
+              <!--begin::Hero-->
+              <div class="card position-relative overflow-hidden bg-light-warning">
+                <div class="position-absolute bottom-0 left-0 right-0 d-none d-lg-flex flex-row-fluid">
+                  <span class="svg-icon svg-icon-full flex-row-fluid svg-icon-dark opacity-3">
+                    <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/bg/home-2-bg.svg-->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1200 172" style="enable-background:new 0 0 1200 172;" xml:space="preserve">
+                    <path class="st0" d="M2058,94c0,0,16-14,73-14s153,92,248,92s286-145,456-145s183,34,292,34s131-54,131-54v172H2058V94z"></path>
+                    <path class="st0" d="M0,87c0,0,16-14,73-14s153,92,248,92S607,20,777,20s183,34,292,34s131-54,131-54v172H0V87z"></path>
+                    </svg>
+                    <!--end::Svg Icon-->
+                  </span>
+                </div>
+                <div class="position-absolute d-flex top-0 right-0 offset-lg-6 col-lg-6 opacity-30 opacity-lg-100">
+                  <span class="svg-icon svg-icon-full flex-row-fluid p-10">
+                    <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/illustrations/working.svg-->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="e66d77ca-31e8-442d-a5de-b801817c4280" data-name="Layer 1" width="1024.7" height="671.65" viewBox="0 0 1024.7 671.65">
+                      <circle cx="720.55" cy="430.76" r="105" fill="url(#a374d817-ded2-4154-8f0a-fb69bb0241af)"></circle>
+                      <circle cx="720.55" cy="430.76" r="100" fill="#f5f5f5"></circle>
+                      <g opacity="0.5">
+                        <path d="M811,482.47a62.52,62.52,0,0,0-64.27,55.82h-18a3.64,3.64,0,0,0-3.64,3.64v6a3.65,3.65,0,0,0,3.64,3.65h18A62.5,62.5,0,1,0,811,482.47Z" transform="translate(-87.65 -114.18)" fill="url(#fd39efba-8078-41b8-857e-e17431406f47)"></path>
+                      </g>
+                      <path d="M810.19,486.22a58.75,58.75,0,0,0-60.41,52.47H732.36a2.91,2.91,0,0,0-2.91,2.91v6.67a2.91,2.91,0,0,0,2.91,2.92h17.42a58.75,58.75,0,1,0,60.41-65Z" transform="translate(-87.65 -114.18)" fill="#fff"></path>
+                      <circle cx="720.55" cy="430.76" r="41.25" fill="#795548"></circle>
+                      <path d="M829.45,524.94s11.77,18.28,8.4,32.5C837.85,557.44,851.3,535.09,829.45,524.94Z" transform="translate(-87.65 -114.18)" fill="#fff" opacity="0.2"></path>
+                      <circle cx="746.8" cy="453.26" r="3.75" fill="#fff" opacity="0.2"></circle>
+                      <rect x="119.09" y="182.63" width="213.27" height="308.72" transform="translate(-156.47 -56.04) rotate(-12.75)" fill="url(#b2bf7fa1-65c2-4695-aeca-af8d6fc55ae3)"></rect>
+                      <rect x="334.38" y="133.91" width="213.27" height="308.72" transform="translate(-140.4 -9.72) rotate(-12.75)" fill="url(#a8abeec4-29f5-4a5c-9a38-56f560b9b0a3)"></rect>
+                      <rect x="122.15" y="186.27" width="207.97" height="302.01" transform="translate(-156.52 -55.94) rotate(-12.75)" fill="#6c63ff"></rect>
+                      <rect x="336.06" y="137.86" width="207.97" height="302.01" transform="translate(-140.56 -9.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="135.55" y="222.61" width="124.88" height="20.81" transform="translate(-134.2 -64.73) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="124.12" y="271.86" width="166.5" height="5.2" transform="translate(-143.12 -61.63) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="126.8" y="283.7" width="166.5" height="5.2" transform="translate(-145.67 -60.75) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="129.48" y="295.54" width="166.5" height="5.2" transform="translate(-148.21 -59.87) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="133.23" y="316.95" width="79.78" height="5.2" transform="translate(-153.92 -68.08) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="135.76" y="327.46" width="91.92" height="5.2" transform="translate(-156.02 -65.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="137.52" y="331.07" width="166.5" height="5.2" transform="translate(-155.86 -57.21) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="140.2" y="342.91" width="166.5" height="5.2" transform="translate(-158.4 -56.33) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="143.03" y="356.09" width="154.36" height="5.2" transform="translate(-161.39 -56.72) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="145.56" y="366.59" width="166.5" height="5.2" transform="translate(-163.5 -54.56) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="149.22" y="387.24" width="86.72" height="5.2" transform="translate(-168.95 -62.05) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="372.13" y="350.43" width="91.92" height="5.2" transform="translate(-155.26 -13.18) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="373.89" y="354.04" width="166.5" height="5.2" transform="translate(-155.1 -4.47) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="376.57" y="365.88" width="166.5" height="5.2" transform="translate(-157.64 -3.59) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="379.4" y="379.06" width="154.36" height="5.2" transform="translate(-160.63 -3.98) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="381.93" y="389.56" width="166.5" height="5.2" transform="translate(-162.74 -1.82) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="385.59" y="410.21" width="86.72" height="5.2" transform="translate(-168.19 -9.31) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="221.62" y="391.43" width="100.59" height="69.38" transform="translate(-175 -43.64) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="337.76" y="165.98" width="100.59" height="69.38" transform="translate(-122.37 -23.57) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="433.79" y="236.72" width="100.59" height="69.38" transform="translate(-135.62 -0.63) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="410.68" y="203.79" width="213.27" height="308.72" rx="13.44" transform="translate(-153.95 8.85) rotate(-12.75)" fill="url(#af3e6cbd-120e-45f3-bb1d-3967e91ae903)"></rect>
+                      <rect x="412.36" y="207.74" width="207.97" height="302.01" rx="13.44" transform="translate(-154.1 8.65) rotate(-12.75)" fill="#6c63ff"></rect>
+                      <g opacity="0.5">
+                        <rect x="220.35" y="542.11" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="308" y="656.29" width="3" height="17" transform="translate(886.64 241.11) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="726.55" y="32.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="814.2" y="146.94" width="3" height="17" transform="translate(883.49 -774.44) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="636.55" y="249.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="724.2" y="363.94" width="3" height="17" transform="translate(1010.49 -467.44) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="894.15" y="288.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="981.8" y="402.94" width="3" height="17" transform="translate(1307.08 -686.03) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <path d="M482.69,654.59a3.68,3.68,0,0,1-2.05-4.44,1.15,1.15,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a2.53,2.53,0,0,0-.2.36,3.67,3.67,0,0,1-4.44,2,1.86,1.86,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.88,1.88,0,0,0,.36.21,3.67,3.67,0,0,1,2.05,4.44,1.89,1.89,0,0,0-.08.4h0a1.84,1.84,0,0,0,3.31,1.23h0a1.9,1.9,0,0,0,.2-.37,3.68,3.68,0,0,1,4.45-2,1.77,1.77,0,0,0,.4.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,482.69,654.59Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M628.89,779.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,628.89,779.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M847.89,348.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,847.89,348.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M999.89,509.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,999.89,509.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <circle cx="142.35" cy="487.11" r="6" fill="#f55f44" opacity="0.5"></circle>
+                      <circle cx="523.55" cy="50.76" r="6" fill="#4d8af0" opacity="0.5"></circle>
+                      <circle cx="498.55" cy="489.76" r="6" fill="#47e6b1" opacity="0.5"></circle>
+                      <circle cx="844.55" cy="639.76" r="6" fill="#f55f44" opacity="0.5"></circle>
+                      <g opacity="0.5">
+                        <path d="M848.9,203.3h286a6.29,6.29,0,0,1,6.29,6.29V362.51a6.29,6.29,0,0,1-6.29,6.29h-286a6.28,6.28,0,0,1-6.28-6.28V209.58A6.29,6.29,0,0,1,848.9,203.3Z" transform="translate(346.54 1040.57) rotate(-73.39)" fill="url(#ad46d94a-2a5e-454e-b2ea-f38dffec9c1a)"></path>
+                      </g>
+                      <rect x="911.41" y="140.66" width="161.02" height="290.64" rx="13.64" transform="translate(35.53 -385.86) rotate(16.61)" fill="#fff"></rect>
+                      <path d="M1070.15,165.27a13,13,0,0,1-15.5,7l-53.29-15.91A13.05,13.05,0,0,1,992.2,142L964,133.59a6.13,6.13,0,0,0-7.61,4.11L880.92,390.53a6.11,6.11,0,0,0,4.12,7.6l134.84,40.24a6.11,6.11,0,0,0,7.6-4.11l75.44-252.83a6.1,6.1,0,0,0-4.11-7.6Z" transform="translate(-87.65 -114.18)" fill="#e0e0e0"></path>
+                      <rect x="1010.74" y="156.59" width="35.88" height="2.24" rx="1.12" transform="translate(-5.15 -389.83) rotate(15.89)" fill="#dbdbdb"></rect>
+                      <circle cx="965.68" cy="50.32" r="1.35" fill="#dbdbdb"></circle>
+                      <rect x="953.4" y="188.74" width="44" height="38" transform="translate(2.54 -365.73) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="938.79" y="241.77" width="44" height="38" transform="translate(16.09 -359.95) rotate(15.4)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="924.19" y="294.79" width="44" height="38" transform="translate(29.65 -354.17) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="909.58" y="347.82" width="44" height="38" transform="translate(43.2 -348.39) rotate(15.4)" fill="#3ad29f" opacity="0.3"></rect>
+                      <rect x="1008.3" y="214.49" width="58" height="4" transform="translate(7.08 -381.86) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="1005.11" y="226.06" width="58" height="4" transform="translate(10.04 -380.6) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="993.96" y="266.56" width="58" height="4" transform="translate(20.39 -376.18) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="990.77" y="278.12" width="58" height="4" transform="translate(23.35 -374.92) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="979.62" y="318.62" width="58" height="4" transform="translate(33.7 -370.5) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="976.43" y="330.19" width="58" height="4" transform="translate(36.66 -369.24) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="965.28" y="370.68" width="58" height="4" transform="translate(47.01 -364.83) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="962.09" y="382.25" width="58" height="4" transform="translate(49.97 -363.56) rotate(15.4)" fill="#fff"></rect>
+                    </svg>
+                    <!--end::Svg Icon-->
+                  </span>
+                </div>
+                <div class="card-body px-12 py-10">
+                  <h3 class="font-weight-bolder font-size-h2 mb-12">
+                    <a href="#" class="text-dark-75">Requisitos para prestamo<br>o compra de producto a crédito</a>
+                  </h3>
+                  <!--begin::Info-->
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Ser mayor de 21 años.</span>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Tener actividad económica estable.</span>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-danger mr-1"></i> No estar reportado en la central de riesgos. <span class="font-size-h5 text-info">(MUY IMPORTANTE)</span></span>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Fotocopia de carnet de identidad vigente.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Fotocopia de factura de luz, agua, gas o telefono del domicilio.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Croquis de domicilio.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Respaldo de actividad.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 font-weight-bold mr-2 ml-8">
+                      <i class="flaticon2-checkmark icon-nm text-primary mr-2"></i> Para asalariados: 
+                      <span class="text-dark-50 font-weight-bold"> Boletas de pagos, contrato o certificado de tabajo, extracto AFP's.</span>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 font-weight-bold mr-2 ml-8">
+                      <i class="flaticon2-checkmark icon-nm text-primary mr-2"></i> Para independientes: 
+                      <span class="text-dark-50 font-weight-bold"> Licencia de funcionamiento, NIT, credencial, foto de negocio, etc.</span>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> 3 ultimas boletas de pago y plan de pagos.
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mr-1 icon-nm mr-1"></i> En caso de tener deudas en otras instituciones.
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Garantía.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mr-1 icon-nm mr-1"></i> Personal o documento en custodia.
+                    </span>
+                  </div>
+                  <!--end::Info-->
+                </div>
+              </div>
+              <!--end::Hero-->
+            </div>
+            <!--end:: REQUISITO TRANSPORTISTA-->
+          </div>
+          <div class="carousel-item px-20">
+            <!--begin::Container-->
+            <div class="container my-20">
+              <!--begin::Hero-->
+              <div class="card position-relative overflow-hidden bg-light-warning">
+                <div class="position-absolute bottom-0 left-0 right-0 d-none d-lg-flex flex-row-fluid">
+                  <span class="svg-icon svg-icon-full flex-row-fluid svg-icon-dark opacity-3">
+                    <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/bg/home-2-bg.svg-->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1200 172" style="enable-background:new 0 0 1200 172;" xml:space="preserve">
+                    <path class="st0" d="M2058,94c0,0,16-14,73-14s153,92,248,92s286-145,456-145s183,34,292,34s131-54,131-54v172H2058V94z"></path>
+                    <path class="st0" d="M0,87c0,0,16-14,73-14s153,92,248,92S607,20,777,20s183,34,292,34s131-54,131-54v172H0V87z"></path>
+                    </svg>
+                    <!--end::Svg Icon-->
+                  </span>
+                </div>
+                <div class="position-absolute d-flex top-0 right-0 offset-lg-6 col-lg-6 opacity-30 opacity-lg-100">
+                  <span class="svg-icon svg-icon-full flex-row-fluid p-10">
+                    <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/illustrations/working.svg-->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="e66d77ca-31e8-442d-a5de-b801817c4280" data-name="Layer 1" width="1024.7" height="671.65" viewBox="0 0 1024.7 671.65">
+                      <circle cx="720.55" cy="430.76" r="105" fill="url(#a374d817-ded2-4154-8f0a-fb69bb0241af)"></circle>
+                      <circle cx="720.55" cy="430.76" r="100" fill="#f5f5f5"></circle>
+                      <g opacity="0.5">
+                        <path d="M811,482.47a62.52,62.52,0,0,0-64.27,55.82h-18a3.64,3.64,0,0,0-3.64,3.64v6a3.65,3.65,0,0,0,3.64,3.65h18A62.5,62.5,0,1,0,811,482.47Z" transform="translate(-87.65 -114.18)" fill="url(#fd39efba-8078-41b8-857e-e17431406f47)"></path>
+                      </g>
+                      <path d="M810.19,486.22a58.75,58.75,0,0,0-60.41,52.47H732.36a2.91,2.91,0,0,0-2.91,2.91v6.67a2.91,2.91,0,0,0,2.91,2.92h17.42a58.75,58.75,0,1,0,60.41-65Z" transform="translate(-87.65 -114.18)" fill="#fff"></path>
+                      <circle cx="720.55" cy="430.76" r="41.25" fill="#795548"></circle>
+                      <path d="M829.45,524.94s11.77,18.28,8.4,32.5C837.85,557.44,851.3,535.09,829.45,524.94Z" transform="translate(-87.65 -114.18)" fill="#fff" opacity="0.2"></path>
+                      <circle cx="746.8" cy="453.26" r="3.75" fill="#fff" opacity="0.2"></circle>
+                      <rect x="119.09" y="182.63" width="213.27" height="308.72" transform="translate(-156.47 -56.04) rotate(-12.75)" fill="url(#b2bf7fa1-65c2-4695-aeca-af8d6fc55ae3)"></rect>
+                      <rect x="334.38" y="133.91" width="213.27" height="308.72" transform="translate(-140.4 -9.72) rotate(-12.75)" fill="url(#a8abeec4-29f5-4a5c-9a38-56f560b9b0a3)"></rect>
+                      <rect x="122.15" y="186.27" width="207.97" height="302.01" transform="translate(-156.52 -55.94) rotate(-12.75)" fill="#6c63ff"></rect>
+                      <rect x="336.06" y="137.86" width="207.97" height="302.01" transform="translate(-140.56 -9.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="135.55" y="222.61" width="124.88" height="20.81" transform="translate(-134.2 -64.73) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="124.12" y="271.86" width="166.5" height="5.2" transform="translate(-143.12 -61.63) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="126.8" y="283.7" width="166.5" height="5.2" transform="translate(-145.67 -60.75) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="129.48" y="295.54" width="166.5" height="5.2" transform="translate(-148.21 -59.87) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="133.23" y="316.95" width="79.78" height="5.2" transform="translate(-153.92 -68.08) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="135.76" y="327.46" width="91.92" height="5.2" transform="translate(-156.02 -65.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="137.52" y="331.07" width="166.5" height="5.2" transform="translate(-155.86 -57.21) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="140.2" y="342.91" width="166.5" height="5.2" transform="translate(-158.4 -56.33) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="143.03" y="356.09" width="154.36" height="5.2" transform="translate(-161.39 -56.72) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="145.56" y="366.59" width="166.5" height="5.2" transform="translate(-163.5 -54.56) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="149.22" y="387.24" width="86.72" height="5.2" transform="translate(-168.95 -62.05) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="372.13" y="350.43" width="91.92" height="5.2" transform="translate(-155.26 -13.18) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="373.89" y="354.04" width="166.5" height="5.2" transform="translate(-155.1 -4.47) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="376.57" y="365.88" width="166.5" height="5.2" transform="translate(-157.64 -3.59) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="379.4" y="379.06" width="154.36" height="5.2" transform="translate(-160.63 -3.98) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="381.93" y="389.56" width="166.5" height="5.2" transform="translate(-162.74 -1.82) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="385.59" y="410.21" width="86.72" height="5.2" transform="translate(-168.19 -9.31) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="221.62" y="391.43" width="100.59" height="69.38" transform="translate(-175 -43.64) rotate(-12.75)" fill="#f5f5f5"></rect>
+                      <rect x="337.76" y="165.98" width="100.59" height="69.38" transform="translate(-122.37 -23.57) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="433.79" y="236.72" width="100.59" height="69.38" transform="translate(-135.62 -0.63) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="410.68" y="203.79" width="213.27" height="308.72" rx="13.44" transform="translate(-153.95 8.85) rotate(-12.75)" fill="url(#af3e6cbd-120e-45f3-bb1d-3967e91ae903)"></rect>
+                      <rect x="412.36" y="207.74" width="207.97" height="302.01" rx="13.44" transform="translate(-154.1 8.65) rotate(-12.75)" fill="#6c63ff"></rect>
+                      <g opacity="0.5">
+                        <rect x="220.35" y="542.11" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="308" y="656.29" width="3" height="17" transform="translate(886.64 241.11) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="726.55" y="32.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="814.2" y="146.94" width="3" height="17" transform="translate(883.49 -774.44) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="636.55" y="249.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="724.2" y="363.94" width="3" height="17" transform="translate(1010.49 -467.44) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <g opacity="0.5">
+                        <rect x="894.15" y="288.76" width="3" height="17" fill="#47e6b1"></rect>
+                        <rect x="981.8" y="402.94" width="3" height="17" transform="translate(1307.08 -686.03) rotate(90)" fill="#47e6b1"></rect>
+                      </g>
+                      <path d="M482.69,654.59a3.68,3.68,0,0,1-2.05-4.44,1.15,1.15,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a2.53,2.53,0,0,0-.2.36,3.67,3.67,0,0,1-4.44,2,1.86,1.86,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.88,1.88,0,0,0,.36.21,3.67,3.67,0,0,1,2.05,4.44,1.89,1.89,0,0,0-.08.4h0a1.84,1.84,0,0,0,3.31,1.23h0a1.9,1.9,0,0,0,.2-.37,3.68,3.68,0,0,1,4.45-2,1.77,1.77,0,0,0,.4.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,482.69,654.59Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M628.89,779.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,628.89,779.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M847.89,348.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,847.89,348.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <path d="M999.89,509.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,999.89,509.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                      <circle cx="142.35" cy="487.11" r="6" fill="#f55f44" opacity="0.5"></circle>
+                      <circle cx="523.55" cy="50.76" r="6" fill="#4d8af0" opacity="0.5"></circle>
+                      <circle cx="498.55" cy="489.76" r="6" fill="#47e6b1" opacity="0.5"></circle>
+                      <circle cx="844.55" cy="639.76" r="6" fill="#f55f44" opacity="0.5"></circle>
+                      <g opacity="0.5">
+                        <path d="M848.9,203.3h286a6.29,6.29,0,0,1,6.29,6.29V362.51a6.29,6.29,0,0,1-6.29,6.29h-286a6.28,6.28,0,0,1-6.28-6.28V209.58A6.29,6.29,0,0,1,848.9,203.3Z" transform="translate(346.54 1040.57) rotate(-73.39)" fill="url(#ad46d94a-2a5e-454e-b2ea-f38dffec9c1a)"></path>
+                      </g>
+                      <rect x="911.41" y="140.66" width="161.02" height="290.64" rx="13.64" transform="translate(35.53 -385.86) rotate(16.61)" fill="#fff"></rect>
+                      <path d="M1070.15,165.27a13,13,0,0,1-15.5,7l-53.29-15.91A13.05,13.05,0,0,1,992.2,142L964,133.59a6.13,6.13,0,0,0-7.61,4.11L880.92,390.53a6.11,6.11,0,0,0,4.12,7.6l134.84,40.24a6.11,6.11,0,0,0,7.6-4.11l75.44-252.83a6.1,6.1,0,0,0-4.11-7.6Z" transform="translate(-87.65 -114.18)" fill="#e0e0e0"></path>
+                      <rect x="1010.74" y="156.59" width="35.88" height="2.24" rx="1.12" transform="translate(-5.15 -389.83) rotate(15.89)" fill="#dbdbdb"></rect>
+                      <circle cx="965.68" cy="50.32" r="1.35" fill="#dbdbdb"></circle>
+                      <rect x="953.4" y="188.74" width="44" height="38" transform="translate(2.54 -365.73) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="938.79" y="241.77" width="44" height="38" transform="translate(16.09 -359.95) rotate(15.4)" fill="#6c63ff" opacity="0.3"></rect>
+                      <rect x="924.19" y="294.79" width="44" height="38" transform="translate(29.65 -354.17) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="909.58" y="347.82" width="44" height="38" transform="translate(43.2 -348.39) rotate(15.4)" fill="#3ad29f" opacity="0.3"></rect>
+                      <rect x="1008.3" y="214.49" width="58" height="4" transform="translate(7.08 -381.86) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="1005.11" y="226.06" width="58" height="4" transform="translate(10.04 -380.6) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="993.96" y="266.56" width="58" height="4" transform="translate(20.39 -376.18) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="990.77" y="278.12" width="58" height="4" transform="translate(23.35 -374.92) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="979.62" y="318.62" width="58" height="4" transform="translate(33.7 -370.5) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="976.43" y="330.19" width="58" height="4" transform="translate(36.66 -369.24) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="965.28" y="370.68" width="58" height="4" transform="translate(47.01 -364.83) rotate(15.4)" fill="#fff"></rect>
+                      <rect x="962.09" y="382.25" width="58" height="4" transform="translate(49.97 -363.56) rotate(15.4)" fill="#fff"></rect>
+                    </svg>
+                    <!--end::Svg Icon-->
+                  </span>
+                </div>
+                <div class="card-body px-12 py-10">
+                  <h3 class="font-weight-bolder font-size-h2 mb-12">
+                    <a href="#" class="text-dark-75">Requisitos para transportistas</a>
+                  </h3>
+                  <!--begin::Info-->
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Ser mayor de 21 años.</span>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Certificado de accion vigente (original)</span>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Fotocopia de carnet de identidad vigente.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Fotocopia de factura de luz, agua, gas o telefono del domicilio.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 mt-2 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Croquis de domicilio.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 mt-2 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-danger mr-1"></i> No estar reportado en la central de riesgos. <span class="font-size-h5 text-info">(MUY IMPORTANTE)</span></span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 mt-2 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> Documentos del vehículo:</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mb-3 mr-1"></i> Fotocopia RUAT 03.<br>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mb-3 mr-1"></i> Fotocopia del SOAT.<br>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mb-3 mr-1"></i> Documento de compra y venta.<br>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mb-3 mr-1"></i> Minuta o poder notarial.<br>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-75 mb-3 flex-root font-weight-bold">
+                      <i class="flaticon2-pen icon-nm text-primary mr-1"></i> En caso de tener deudas en otras instituciones.</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 mb-3 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mr-1"></i> 3 últimas boletas de pago. <br>
+                    </span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="text-dark-65 font-weight-bold mr-2 ml-8">
+                        <i class="flaticon2-checkmark icon-nm text-primary mr-1"></i> Plan de pagos.
+                    </span>
+                  </div>
+                  <!--end::Info-->
+                </div>
+              </div>
+              <!--end::Hero-->
+            </div>
+            <!--end::Container-->
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="" aria-hidden="true" style="color: red">
+            <i class="flaticon2-left-arrow icon-nm text-danger icon-3x mr-1"></i>
+          </span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="" aria-hidden="true" style="color: red">
+            <i class="flaticon2-right-arrow icon-nm text-danger icon-3x mr-1"></i>
+          </span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      
+    </div>
+    
+    
+    
+    
+    <!-- SUCURSALES -->
+    {% include 'landings/sucursales.html'%}
+
+    <!-- CALCULADORA -->
+    <div class="d-flex flex-column-fluid bg-light-warning" id="calculadora" hidden>
+      <!--begin::Container-->
+      <div class="container my-20" hidden>
+        <!--begin::Hero-->
+        <div class="card position-relative overflow-hidden mb-8">
+          <div class="position-absolute bottom-0 left-0 right-0 d-none d-lg-flex flex-row-fluid">
+            <span class="svg-icon svg-icon-full flex-row-fluid svg-icon-dark opacity-3">
+              <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/bg/home-2-bg.svg-->
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1200 172" style="enable-background:new 0 0 1200 172;" xml:space="preserve">
+              <path class="st0" d="M2058,94c0,0,16-14,73-14s153,92,248,92s286-145,456-145s183,34,292,34s131-54,131-54v172H2058V94z"></path>
+              <path class="st0" d="M0,87c0,0,16-14,73-14s153,92,248,92S607,20,777,20s183,34,292,34s131-54,131-54v172H0V87z"></path>
+              </svg>
+              <!--end::Svg Icon-->
+            </span>
+          </div>
+          <div class="position-absolute d-flex top-0 right-0 offset-lg-6 col-lg-6 opacity-30 opacity-lg-100">
+            <span class="svg-icon svg-icon-full flex-row-fluid p-10">
+              <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/illustrations/working.svg-->
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="e66d77ca-31e8-442d-a5de-b801817c4280" data-name="Layer 1" width="1024.7" height="671.65" viewBox="0 0 1024.7 671.65">
+                <circle cx="720.55" cy="430.76" r="105" fill="url(#a374d817-ded2-4154-8f0a-fb69bb0241af)"></circle>
+                <circle cx="720.55" cy="430.76" r="100" fill="#f5f5f5"></circle>
+                <g opacity="0.5">
+                  <path d="M811,482.47a62.52,62.52,0,0,0-64.27,55.82h-18a3.64,3.64,0,0,0-3.64,3.64v6a3.65,3.65,0,0,0,3.64,3.65h18A62.5,62.5,0,1,0,811,482.47Z" transform="translate(-87.65 -114.18)" fill="url(#fd39efba-8078-41b8-857e-e17431406f47)"></path>
+                </g>
+                <path d="M810.19,486.22a58.75,58.75,0,0,0-60.41,52.47H732.36a2.91,2.91,0,0,0-2.91,2.91v6.67a2.91,2.91,0,0,0,2.91,2.92h17.42a58.75,58.75,0,1,0,60.41-65Z" transform="translate(-87.65 -114.18)" fill="#fff"></path>
+                <circle cx="720.55" cy="430.76" r="41.25" fill="#795548"></circle>
+                <path d="M829.45,524.94s11.77,18.28,8.4,32.5C837.85,557.44,851.3,535.09,829.45,524.94Z" transform="translate(-87.65 -114.18)" fill="#fff" opacity="0.2"></path>
+                <circle cx="746.8" cy="453.26" r="3.75" fill="#fff" opacity="0.2"></circle>
+                <rect x="119.09" y="182.63" width="213.27" height="308.72" transform="translate(-156.47 -56.04) rotate(-12.75)" fill="url(#b2bf7fa1-65c2-4695-aeca-af8d6fc55ae3)"></rect>
+                <rect x="334.38" y="133.91" width="213.27" height="308.72" transform="translate(-140.4 -9.72) rotate(-12.75)" fill="url(#a8abeec4-29f5-4a5c-9a38-56f560b9b0a3)"></rect>
+                <rect x="122.15" y="186.27" width="207.97" height="302.01" transform="translate(-156.52 -55.94) rotate(-12.75)" fill="#6c63ff"></rect>
+                <rect x="336.06" y="137.86" width="207.97" height="302.01" transform="translate(-140.56 -9.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="135.55" y="222.61" width="124.88" height="20.81" transform="translate(-134.2 -64.73) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="124.12" y="271.86" width="166.5" height="5.2" transform="translate(-143.12 -61.63) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="126.8" y="283.7" width="166.5" height="5.2" transform="translate(-145.67 -60.75) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="129.48" y="295.54" width="166.5" height="5.2" transform="translate(-148.21 -59.87) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="133.23" y="316.95" width="79.78" height="5.2" transform="translate(-153.92 -68.08) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="135.76" y="327.46" width="91.92" height="5.2" transform="translate(-156.02 -65.92) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="137.52" y="331.07" width="166.5" height="5.2" transform="translate(-155.86 -57.21) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="140.2" y="342.91" width="166.5" height="5.2" transform="translate(-158.4 -56.33) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="143.03" y="356.09" width="154.36" height="5.2" transform="translate(-161.39 -56.72) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="145.56" y="366.59" width="166.5" height="5.2" transform="translate(-163.5 -54.56) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="149.22" y="387.24" width="86.72" height="5.2" transform="translate(-168.95 -62.05) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="372.13" y="350.43" width="91.92" height="5.2" transform="translate(-155.26 -13.18) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="373.89" y="354.04" width="166.5" height="5.2" transform="translate(-155.1 -4.47) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="376.57" y="365.88" width="166.5" height="5.2" transform="translate(-157.64 -3.59) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="379.4" y="379.06" width="154.36" height="5.2" transform="translate(-160.63 -3.98) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="381.93" y="389.56" width="166.5" height="5.2" transform="translate(-162.74 -1.82) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="385.59" y="410.21" width="86.72" height="5.2" transform="translate(-168.19 -9.31) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="221.62" y="391.43" width="100.59" height="69.38" transform="translate(-175 -43.64) rotate(-12.75)" fill="#f5f5f5"></rect>
+                <rect x="337.76" y="165.98" width="100.59" height="69.38" transform="translate(-122.37 -23.57) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="433.79" y="236.72" width="100.59" height="69.38" transform="translate(-135.62 -0.63) rotate(-12.75)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="410.68" y="203.79" width="213.27" height="308.72" rx="13.44" transform="translate(-153.95 8.85) rotate(-12.75)" fill="url(#af3e6cbd-120e-45f3-bb1d-3967e91ae903)"></rect>
+                <rect x="412.36" y="207.74" width="207.97" height="302.01" rx="13.44" transform="translate(-154.1 8.65) rotate(-12.75)" fill="#6c63ff"></rect>
+                <g opacity="0.5">
+                  <rect x="220.35" y="542.11" width="3" height="17" fill="#47e6b1"></rect>
+                  <rect x="308" y="656.29" width="3" height="17" transform="translate(886.64 241.11) rotate(90)" fill="#47e6b1"></rect>
+                </g>
+                <g opacity="0.5">
+                  <rect x="726.55" y="32.76" width="3" height="17" fill="#47e6b1"></rect>
+                  <rect x="814.2" y="146.94" width="3" height="17" transform="translate(883.49 -774.44) rotate(90)" fill="#47e6b1"></rect>
+                </g>
+                <g opacity="0.5">
+                  <rect x="636.55" y="249.76" width="3" height="17" fill="#47e6b1"></rect>
+                  <rect x="724.2" y="363.94" width="3" height="17" transform="translate(1010.49 -467.44) rotate(90)" fill="#47e6b1"></rect>
+                </g>
+                <g opacity="0.5">
+                  <rect x="894.15" y="288.76" width="3" height="17" fill="#47e6b1"></rect>
+                  <rect x="981.8" y="402.94" width="3" height="17" transform="translate(1307.08 -686.03) rotate(90)" fill="#47e6b1"></rect>
+                </g>
+                <path d="M482.69,654.59a3.68,3.68,0,0,1-2.05-4.44,1.15,1.15,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a2.53,2.53,0,0,0-.2.36,3.67,3.67,0,0,1-4.44,2,1.86,1.86,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.88,1.88,0,0,0,.36.21,3.67,3.67,0,0,1,2.05,4.44,1.89,1.89,0,0,0-.08.4h0a1.84,1.84,0,0,0,3.31,1.23h0a1.9,1.9,0,0,0,.2-.37,3.68,3.68,0,0,1,4.45-2,1.77,1.77,0,0,0,.4.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,482.69,654.59Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                <path d="M628.89,779.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,628.89,779.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                <path d="M847.89,348.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,847.89,348.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                <path d="M999.89,509.24a3.68,3.68,0,0,1-2-4.44,1.86,1.86,0,0,0,.08-.41h0a1.84,1.84,0,0,0-3.31-1.22h0a1.82,1.82,0,0,0-.2.36,3.66,3.66,0,0,1-4.44,2.05,2,2,0,0,0-.41-.08h0a1.84,1.84,0,0,0-1.22,3.31h0a1.62,1.62,0,0,0,.36.21,3.68,3.68,0,0,1,2,4.44,1.86,1.86,0,0,0-.08.41h0a1.84,1.84,0,0,0,3.31,1.22h0a1.65,1.65,0,0,0,.2-.37,3.67,3.67,0,0,1,4.44-2,2,2,0,0,0,.41.08h0a1.84,1.84,0,0,0,1.22-3.31h0A1.62,1.62,0,0,0,999.89,509.24Z" transform="translate(-87.65 -114.18)" fill="#4d8af0" opacity="0.5"></path>
+                <circle cx="142.35" cy="487.11" r="6" fill="#f55f44" opacity="0.5"></circle>
+                <circle cx="523.55" cy="50.76" r="6" fill="#4d8af0" opacity="0.5"></circle>
+                <circle cx="498.55" cy="489.76" r="6" fill="#47e6b1" opacity="0.5"></circle>
+                <circle cx="844.55" cy="639.76" r="6" fill="#f55f44" opacity="0.5"></circle>
+                <g opacity="0.5">
+                  <path d="M848.9,203.3h286a6.29,6.29,0,0,1,6.29,6.29V362.51a6.29,6.29,0,0,1-6.29,6.29h-286a6.28,6.28,0,0,1-6.28-6.28V209.58A6.29,6.29,0,0,1,848.9,203.3Z" transform="translate(346.54 1040.57) rotate(-73.39)" fill="url(#ad46d94a-2a5e-454e-b2ea-f38dffec9c1a)"></path>
+                </g>
+                <rect x="911.41" y="140.66" width="161.02" height="290.64" rx="13.64" transform="translate(35.53 -385.86) rotate(16.61)" fill="#fff"></rect>
+                <path d="M1070.15,165.27a13,13,0,0,1-15.5,7l-53.29-15.91A13.05,13.05,0,0,1,992.2,142L964,133.59a6.13,6.13,0,0,0-7.61,4.11L880.92,390.53a6.11,6.11,0,0,0,4.12,7.6l134.84,40.24a6.11,6.11,0,0,0,7.6-4.11l75.44-252.83a6.1,6.1,0,0,0-4.11-7.6Z" transform="translate(-87.65 -114.18)" fill="#e0e0e0"></path>
+                <rect x="1010.74" y="156.59" width="35.88" height="2.24" rx="1.12" transform="translate(-5.15 -389.83) rotate(15.89)" fill="#dbdbdb"></rect>
+                <circle cx="965.68" cy="50.32" r="1.35" fill="#dbdbdb"></circle>
+                <rect x="953.4" y="188.74" width="44" height="38" transform="translate(2.54 -365.73) rotate(15.4)" fill="#fff"></rect>
+                <rect x="938.79" y="241.77" width="44" height="38" transform="translate(16.09 -359.95) rotate(15.4)" fill="#6c63ff" opacity="0.3"></rect>
+                <rect x="924.19" y="294.79" width="44" height="38" transform="translate(29.65 -354.17) rotate(15.4)" fill="#fff"></rect>
+                <rect x="909.58" y="347.82" width="44" height="38" transform="translate(43.2 -348.39) rotate(15.4)" fill="#3ad29f" opacity="0.3"></rect>
+                <rect x="1008.3" y="214.49" width="58" height="4" transform="translate(7.08 -381.86) rotate(15.4)" fill="#fff"></rect>
+                <rect x="1005.11" y="226.06" width="58" height="4" transform="translate(10.04 -380.6) rotate(15.4)" fill="#fff"></rect>
+                <rect x="993.96" y="266.56" width="58" height="4" transform="translate(20.39 -376.18) rotate(15.4)" fill="#fff"></rect>
+                <rect x="990.77" y="278.12" width="58" height="4" transform="translate(23.35 -374.92) rotate(15.4)" fill="#fff"></rect>
+                <rect x="979.62" y="318.62" width="58" height="4" transform="translate(33.7 -370.5) rotate(15.4)" fill="#fff"></rect>
+                <rect x="976.43" y="330.19" width="58" height="4" transform="translate(36.66 -369.24) rotate(15.4)" fill="#fff"></rect>
+                <rect x="965.28" y="370.68" width="58" height="4" transform="translate(47.01 -364.83) rotate(15.4)" fill="#fff"></rect>
+                <rect x="962.09" y="382.25" width="58" height="4" transform="translate(49.97 -363.56) rotate(15.4)" fill="#fff"></rect>
+              </svg>
+              <!--end::Svg Icon-->
+            </span>
+          </div>
+          <div class="card-body px-12 py-10">
+            <h3 class="font-weight-bolder font-size-h2 mb-12">
+              <a href="#" class="text-dark-75">Calcula tu crédito</a>
+            </h3>
+            <form class="form">
+              <div class="card-body">
+                <div class="form-group row mb-6">
+                  <label class="col-form-label text-right col-lg-3 col-sm-12">¿Cuánto necesitas?</label>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                   <div class="row align-items-center">
+                    
+                    <div class="col-4">
+                      <input type="text" class="form-control" id="kt_nouislider_1_input"  placeholder="Currency"/>
+                      </div>
+
+                    <div class="col-8">
+                      <div id="kt_nouislider_1" class="nouislider nouislider-handle-danger nouislider-connect-warning"></div>
+                     </div>
+                    </div>
+                    <span class="form-text text-muted mt-6">desde 500 Bs. hasta 5000 Bs..</span>
+                  </div>
+                </div>
+                <div class="form-group row mb-6">
+                  <label class="col-form-label text-right col-lg-3 col-sm-12">Frecuencia de pago</label>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="row align-items-center">
+                      <div class="col-12">
+                        <div class="radio-inline mt-3">
+                          <label class="radio radio-lg radio-warning">
+                          <input type="radio" checked="checked" name="radios3">
+                          <span></span>Semanal</label>
+                          <label class="radio radio-lg radio-warning">
+                          <input type="radio" name="radios3">
+                          <span></span>Quincenal</label>
+                          <label class="radio radio-lg radio-warning">
+                          <input type="radio" checked="checked" name="radios3">
+                          <span></span>Mensial</label>
+                        </div>
+                      </div>
+                    </div>
+                   <span class="form-text text-muted mt-6">Cada cuanto piensas depositar.</span>
+                  </div>
+                </div>
+                <div class="form-group row mb-6">
+                  <label class="col-form-label text-right col-lg-3 col-sm-12">¿Para cuántos meses?</label>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                   <div class="row align-items-center">
+                    <div class="col-4">
+                     <input type="text" class="form-control" id="kt_nouislider_2_input"  placeholder="Currency"/>
+                    </div>
+                    <div class="col-8">
+                     <div id="kt_nouislider_2" class="nouislider nouislider-handle-danger"></div>
+                    </div>
+                   </div>
+                   <span class="form-text text-muted mt-6">De 1 a 10 meses.</span>
+                  </div>
+                </div>
+               <div class="separator separator-dashed my-10"></div>
+               <div class="form-group row mb-6">
+                <label class="col-form-label text-right col-lg-3 col-sm-12">Monto a pagar:</label>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                 <div class="row align-items-center">
+                  <div class="col-4">
+                   <input type="text" class="form-control" id="kt_nouislider_1_input"  placeholder=""/>
+                  </div>
+                  <div class="col-8">
+                    <button type="button" class="btn btn-success mr-2">Calcular</button>
+                  </div>
+                 </div>
+                 <span class="form-text text-muted mt-6">Este es el monto que debes depositar cada "MES"</span>
+                </div>
+              </div>
+              </div>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% verbatim  %}
+    <!--begin::Modal de ubicacion de sucursal -->
+    <div class="modal fade" id="kt_location_sucursal_modal" ref="sucursalModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color:#DEC464; border-bottom:0px !important">
+            <h5 class="modal-title" id="exampleModalLabel">Agencia {{ubicacion}}</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="modal-body" style="background-color:#313349;">
+            <div id="gmap_3" ref="map" style="height: 400px !important;"></div>
+          </div>
+          <div class="modal-footer" style="background-color:#DEC464;border-top:0px !important">
+            <button type="button" class="btn btn-primary" @click="closeUbicacionModal()">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endverbatim  %}
+    
+    <!--SCROLLTOP-->
+    <div id="kt_scrolltop" class="scrolltop" >
+      <span class="svg-icon">
+        <i class="flaticon2-arrow-up text-white"></i>
+      </span>
+    </div>
+
+    <!--WHATSAPP FLOAT BUTTON-->
+    {% include 'landings/button_whatsapp.html'%}
+
+  
+    <!-- INFORMACION DE LA EMPRESA-->  
+    <!--begin::Footer-->
+    {% include 'layouts/partials/footer_landing.html' %}
+    <!--end::Footer-->
+  </div>
+  
+ 
+
+  
+ <!-- begin::User Panel-->
+ {% include 'layouts/user/rigth_user_profile.html' %}
+
+<!--end::Main-->
+{% endblock %}
+
+
+{% block js_extra %}
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+<script src="{% static 'assets/plugins/custom/gmaps/gmaps.js' %}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ13cVM5Dw--zl5NZteWcD0NxgJ7Cbqv8"></script>
+<script>
+//para renderizar los mapas de cada sucursal
+let marker;
+function initMap(punto) {
+
+  const map = new google.maps.Map(document.getElementById("gmap_3"), {
+    zoom: 18,
+    center: punto,
+  });
+
+  const marker = new google.maps.Marker({
+    position: punto,
+    map: map,
+    //draggable: true,
+    title: "Arrastra el marcador",
+  });
+}
+</script>
+
+<script src="{% static 'app/vuejs/landing.js' %}"></script>
+
+<script>
+  // Para el carrusel de requisitos
+  //$('.carousel').carousel()
+
+  // For volume component en formulario de solicitud credito
+var KTnoUiSliderDemos = function() {
+
+// Private functions para monto solicitado
+var demo1 = function() {
+ // init slider
+ var slider = document.getElementById('kt_nouislider_1');
+
+ noUiSlider.create(slider, {
+  start: [ 500 ],
+  step: 100,
+  range: {
+   'min': [ 500 ],
+   'max': [ 5000 ]
+  },
+  format: wNumb({
+   decimals: 0
+  })
+ });
+
+ // init slider input
+ var sliderInput = document.getElementById('kt_nouislider_1_input');
+
+ slider.noUiSlider.on('update', function( values, handle ) {
+  sliderInput.value = values[handle];
+ });
+
+ sliderInput.addEventListener('change', function(){
+  slider.noUiSlider.set(this.value);
+ });
+}
+
+// Private functions para plazo
+var demo2 = function() {
+ // init slider
+ var slider = document.getElementById('kt_nouislider_2');
+
+ noUiSlider.create(slider, {
+  start: [ 1 ],
+  step: 1,
+  range: {
+   'min': [ 1 ],
+   'max': [ 10 ]
+  },
+  format: wNumb({
+   decimals: 0
+  })
+ });
+
+ // init slider input
+ var sliderInput = document.getElementById('kt_nouislider_2_input');
+
+ slider.noUiSlider.on('update', function( values, handle ) {
+  sliderInput.value = values[handle];
+ });
+
+ sliderInput.addEventListener('change', function(){
+  slider.noUiSlider.set(this.value);
+ });
+}
+
+return {
+ // public functions
+ init: function() {
+  demo1();
+  demo2();
+ }
+};
+}();
+
+jQuery(document).ready(function() {
+KTnoUiSliderDemos.init();
+});
+</script>
+
+<script>
+  //para slide for call to action
+  // this code always ending
+  // https://splidejs.com/
+  new Splide('.splide', {
+    type: 'loop',
+    autoplay: true,
+    interval:3000,
+  } ).mount();
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3125596194396015');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3125596194396015&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+{% endblock %}

@@ -1,0 +1,44 @@
+{% load static i18n %}
+<div class="container">
+    <!--begin::Topbar-->
+    <div class="d-flex justify-content-between align-items-center ">
+        <!--h3 class="h4 text-dark mb-0">
+            <a href="{% url 'home' %}" class="menu-link ">
+                <img alt="JGP-Logo" src="{% static 'images/logos_jgp/logo-dark.png' %}" width="136px" />
+            </a>
+        </h3-->
+
+        <!--div class="d-flex">
+            <a href="#" class="font-size-h6 font-weight-bold">Ayuda</a>
+            <a href="{% url 'account_login' %}" class="font-size-h6 font-weight-bold ml-8">Iniciar sesión</a>
+        </div-->
+    </div>
+    <!--end::Topbar-->
+    <div class="d-flex align-items-stretch text-right flex-column py-40 mt-20 mr-10">
+        <!--begin::Heading-->
+        <h1 class="text-dark font-weight-bolder mb-5 display-3">Préstamo de dinero</h1>
+        <h3 class="text-dark-75 font-weight-bolder mb-5 display-4">fácil y rápido</h3>
+        <blockquote class="blockquote text-right mb-12">
+            <p class="text-dark mb-0 font-size-h2">Bienvenido a <br> Jesús del Gran Poder S.A.</p>
+            <footer class="blockquote-footer font-size-h4">Queremos ayudarte a 
+                <cite title="Source Title ">cumplir tus sueños</cite>
+            </footer>
+        </blockquote>
+        <!--end::Heading-->
+        <!--begin::Input-->
+        {% comment %} <div class="d-flex justify-content-between">
+					<span class=""></span>
+					<a href="{% url 'contabilidad:solicitud-credito' %}"
+							class="btn btn-success font-weight-bolder w-40 h-auto py-7 px-7 font-size-h6">
+						<i class="la la-money-bill-wave icon-xl"></i>
+						Solicita un prestamo
+					</a>
+        </div> {% endcomment %}
+        <!--end::Input-->
+    </div>
+    <div id="kt_scrolldown" class="scrolldown"></div>
+    <a href="#skills" class="btn btn-icon btn-lg btn-light-primary pulse pulse-primary mr-5 mb-10">
+        <i class="flaticon2-arrow-down"></i>
+        <span class="pulse-ring"></span>
+    </a>
+</div>

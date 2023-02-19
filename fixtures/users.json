@@ -1,0 +1,155 @@
+[
+    
+    {
+        "model": "accounts.user",
+        "pk": 2,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$yStMEEK93rJ30D.TexAfreScLgD/D8c5cOzlVLvXQul59ESidVQOy",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "cajero@gmail.com",
+            "email": "cajero@gmail.com",
+            "code": "11",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 3,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "asesor@gmail.com",
+            "email": "asesor@gmail.com",
+            "code": "22",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+    ,
+    {
+        "model": "accounts.user",
+        "pk": 4,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "plataforma@gmail.com",
+            "email": "plataforma@gmail.com",
+            "code": "33",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+    ,
+    {
+        "model": "accounts.user",
+        "pk": 5,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "jefesucursal@gmail.com",
+            "email": "jefesucursal@gmail.com",
+            "code": "44",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+    ,
+    {
+        "model": "accounts.user",
+        "pk": 6,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "cajeroplataforma@gmail.com",
+            "email": "cajeroplataforma@gmail.com",
+            "code": "55",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+    ,
+    {
+        "model": "accounts.user",
+        "pk": 7,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "secretaria@gmail.com",
+            "email": "secretaria@gmail.com",
+            "code": "66",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+    ,
+    {
+        "model": "accounts.user",
+        "pk": 8,
+        "fields": {
+            "password": "bcrypt_sha256$$2b$12$xjKp2j4Yqxro/A.hyntpVupULoHbYdf19l2OHaYeft/.rBvG61K6e",
+            "last_login": "2020-01-15T16:56:28.873Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-01-15T16:56:15.257Z",
+            "username": "sistemas@gmail.com",
+            "email": "sistemas@gmail.com",
+            "code": "77",
+            "avatar": "",
+            "first_name": "",
+            "last_name": "",
+            "lang": "es",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

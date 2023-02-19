@@ -1,0 +1,45 @@
+[{
+  "model": "empresa.Rol",
+  "pk":5,
+  "fields":{
+    "slug": "62455",
+    "codigo":	"AS",
+    "nombre":	"Administrador de Solicitudes"
+  }
+},
+{
+  "model": "empresa.Rol",
+  "pk":4,
+  "fields":{
+    "slug": "CB147",
+    "codigo":	"SG",
+    "nombre":	"Secretaria Gerencia"
+  }
+},
+{
+  "model": "empresa.Rol",
+  "pk":3,
+  "fields":{
+    "slug": "80DD8",
+    "codigo":	"SU",
+    "nombre":	"Supervisor"
+  }
+},
+{
+  "model": "empresa.Rol",
+  "pk":2,
+  "fields":{
+    "slug": "0373F",
+    "codigo":	"AC",
+    "nombre":	"Asesor Comercial"
+  }
+},
+{
+  "model": "empresa.Rol",
+  "pk":1,
+  "fields":{
+    "slug": "3BCBF",
+    "codigo":	"JS",
+    "nombre":	"Jefe de Sucursal"
+  }
+}]

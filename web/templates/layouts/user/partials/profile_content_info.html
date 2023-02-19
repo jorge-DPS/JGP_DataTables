@@ -1,0 +1,169 @@
+{% load static i18n %}
+
+<div class="flex-row-fluid ml-lg-8" ref="info_content" v-if="opcion.perfil">
+  <!--begin::Card-->
+  <div class="card card-custom card-stretch">
+    <!--begin::Header-->
+    <div class="card-header py-3">
+      <div class="card-title align-items-start flex-column">
+    <h3 class="card-label font-weight-bolder text-dark">{% trans 'Información personal'%}</h3>
+        <span class="text-muted font-weight-bold font-size-sm mt-1">{% trans 'Puedes actualizar tu información personal'%}</span>
+      </div>
+      <div class="card-toolbar">
+        <button type="button" form="profileForm"  v-on:click="updateProfile()"
+                class="btn btn-success mr-2">{% trans 'Guardar'%}</button>
+        <button type="reset" class="btn btn-secondary">{% trans 'Cancelar'%}</button>
+      </div>
+    </div>
+    <!--end::Header-->
+    <!--begin::Form-->
+    <!--form class="form" id="profileForm" method="POST" action="{% url 'accounts:profile' %}" -->
+    <form class="form" id="profileForm">
+      {% csrf_token %}
+      <!--begin::Body-->
+      <div class="card-body">
+        <div class="row">
+          <label class="col-xl-3"></label>
+          <div class="col-lg-9 col-xl-6">
+            <h5 class="font-weight-bold mb-6">{% trans 'Información personal'%}</h5>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">Avatar</label>
+          <div class="col-lg-9 col-xl-6">
+            {% if user.avatar_url %}
+            <div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url({{user.avatar_url}})">
+              <div class="image-input-wrapper" style="background-image: url({{user.avatar_url}})"></div>
+            {% else %}
+            <div class="image-input image-input-outline" id="kt_profile_avatar" style="background-image: url({% static 'assets/media/users/default.jpg' %})">
+              <div class="image-input-wrapper" style="background-image: url({% static 'assets/media/users/default.jpg' %})"></div>
+            {% endif %}
+              <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
+                      data-action="change" data-toggle="tooltip" title="" data-original-title="{% trans 'Cambiar Avatar'%}">
+                <i class="fa fa-pen icon-sm text-muted"></i>
+                <input type="file" name="profile_avatar" ref="avatarFile" accept=".png, .jpg, .jpeg">
+                <input type="hidden" name="profile_avatar_remove">
+              </label>
+              <span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
+                      data-action="cancel" data-toggle="tooltip" title="" data-original-title="{% trans 'Cancelar Avatar'%}">
+                <i class="ki ki-bold-close icon-xs text-muted"></i>
+              </span>
+              <span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow"
+                      data-action="remove" data-toggle="tooltip" title="" data-original-title="{% trans 'Eliminar Avatar'%}">
+                <i class="ki ki-bold-close icon-xs text-muted"></i>
+              </span>
+            </div>
+            <span class="form-text text-muted">{% trans 'Formatos de imagen: png, jpg, jpeg.'%}</span>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Nombre(s)' %}</label>
+          <div class="col-lg-9 col-xl-6">
+            <input class="form-control form-control-lg form-control-solid" type="text" v-model="user.first_name">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Apellidos' %}</label>
+          <div class="col-lg-9 col-xl-6">
+            <input class="form-control form-control-lg form-control-solid" type="text"
+                    v-model="user.last_name">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Nombre de ususario' %}</label>
+          <div class="col-lg-9 col-xl-6">
+            <input class="form-control form-control-lg form-control-solid" type="text"
+                    v-model="user.username">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Fecha de nacimiento' %}</label>
+          <div class="col-lg-4 col-md-9 col-sm-12">
+          <div class="input-group date" >
+          <!--
+            <input type="text" class="form-control form-control-lg form-control-solid"
+                   readonly value="{{user.birthdate|date:'m/d/Y'}}" id="kt_datepicker_3"/>
+          -->
+            <input type="text" class="form-control form-control-lg form-control-solid"
+                   v-model="user.birthdate" id="kt_datepicker_3" ref="datePicker"/>
+            <div class="input-group-append">
+            <span class="input-group-text">
+              <i class="la la-calendar"></i>
+            </span>
+            </div>
+          </div>
+          <span class="form-text text-muted">{% trans 'Año/Mes/Día' %}</span>
+          </div>
+        </div>
+        <!--div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">Company Name</label>
+          <div class="col-lg-9 col-xl-6">
+            <input class="form-control form-control-lg form-control-solid" type="text" value="Loop Inc.">
+            <span class="form-text text-muted">If you want your invoices addressed to a company. Leave blank to use your full name.</span>
+          </div>
+        </div-->
+        <div class="row">
+          <label class="col-xl-3"></label>
+          <div class="col-lg-9 col-xl-6">
+            <h5 class="font-weight-bold mt-10 mb-6">{% trans 'Datos de contacto'%}</h5>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Telefono / Celular'%}</label>
+          <div class="col-lg-9 col-xl-6">
+            <div class="input-group input-group-lg input-group-solid">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="la la-phone"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control form-control-lg form-control-solid"
+                      v-model="user.phone" placeholder="Telefono/Celular">
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">{% trans 'Correo electónico'%}</label>
+          <div class="col-lg-9 col-xl-6">
+            <div class="input-group input-group-lg input-group-solid">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="la la-at"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control form-control-lg form-control-solid"
+                      v-model="user.email" disabled placeholder="Email">
+            </div>
+            <span class="form-text text-muted">{% trans 'El correo solo puede cambiarlo el administrador, por favor comunicate con el.' %}</span>
+          </div>
+        </div>
+        <!--div class="form-group row">
+          <label class="col-xl-3 col-lg-3 col-form-label">Company Site</label>
+          <div class="col-lg-9 col-xl-6">
+            <div class="input-group input-group-lg input-group-solid">
+              <input type="text" class="form-control form-control-lg form-control-solid" placeholder="Username" value="loop">
+              <div class="input-group-append">
+                <span class="input-group-text">.com</span>
+              </div>
+            </div>
+          </div>
+        </div-->
+      </div>
+      <!--end::Body-->
+    </form>
+    <!--end::Form-->
+  </div>
+</div>
+<!--end::Content-->
+<!--/div-->
+<!--end::Profile Personal Information-->
+<!--/div-->
+<!--end::Container-->
+<!--/div-->
+    <!--end::Entry-->
+<!--/div-->
+  <!--end::Card-->
+<!--/div-->
+

@@ -1,0 +1,16 @@
+{% load static i18n %}
+<!--begin::Content-->
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+  <!--begin::Toolbar-->
+  {% include 'version2/layouts/partials/toolbar_subheader.html' %}
+  <!--end::Toolbar-->
+  
+  <!--begin::Content body -->
+  {% block content_body %}
+  {#% include 'version2/layouts/components_extra/content_dashboard_body.html' %#}
+  <!-- Es en este punto donde se debe cargar todas las vistas del panel de control de JGP -->
+  
+  {% endblock %}
+  <!--end::Content body -->
+</div>
+<!--end::Content-->

@@ -1,0 +1,53 @@
+{% load static i18n %}
+<!-- id="kt_account_profile_details_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" novalidate="novalidate" data-select2-id="select2-data-kt_account_profile_details_form" -->
+    <!--begin::Card body-->
+<div class="card-body">
+
+    <!--begin::Form-->
+    <form id="kt_docs_formvalidation_text" class="form" action="#" autocomplete="off" >
+        <!--begin::Input group-->
+        <div class="fv-row mb-10">
+            <!--begin::Label-->
+            <label class="required fw-semibold fs-6 mb-2">Descripcion Zonas</label>
+            <!--end::Label-->
+
+            <!--begin::Input-->
+            <input type="text" name="text_input" v-model="zona.descripcion" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="ingrese la descripcion de zona" value="" autocapitalize />
+            {% verbatim %}
+                <div class="form-text text-danger">
+                    <span v-for="error in error_zona.errors">
+                        <span >[[error.message]]</span>
+                        <!-- <span >{{error}}</span> -->
+                    </span>
+                </div>
+            {% endverbatim %}
+            <!--end::Input-->
+        </div>
+
+        <div class="fv-row mb-10">
+            <label class="required fw-semibold fs-6 mb-2">Localidad</label>
+            <div class="form">
+                <select  id="localidad" name="select2_input"  class="form-select localidad" data-placeholder="{{zona.localidad.descripcion}}"
+                v-model="zona.localidad">
+                    <option value="{{zona.localidad.id}}"></option>
+                </select>
+            </div>
+        </div>
+
+        {% verbatim %}
+                <div class="form-text text-danger">
+                    <span v-for="error in error_zona.errors">
+                        <span >[[error.message]]</span>
+                        <!-- <span >{{error}}</span> -->
+                    </span>
+                </div>
+            {% endverbatim %}
+
+        
+        <!--end::Input group-->  
+    </form>
+    <!--end::Form-->
+
+
+</div>
+      

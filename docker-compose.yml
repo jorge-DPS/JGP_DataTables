@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+
+  django: &django
+    build:
+      context: ""
+      dockerfile: ./Dockerfile
+      target: development
+    ports:
+      - "8000:8000"
+    command: /start
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: mariadb
+    restart: always
+    command: ['--character-set-server=utf8', '--collation-server=utf8_unicode_ci']
+    environment:
+      MYSQL_DATABASE: "jgp_db"
+      MYSQL_USER: "jgp_user"
+      MYSQL_PASSWORD: "12345678x"
+      MYSQL_ROOT_PASSWORD: "docker-root"
+
+
+  redis:
+    image: redis:5
+

@@ -1,0 +1,80 @@
+{% extends 'version2/landing/base.html' %}
+{% load static i18n %}
+
+{% block content_body %}
+  {% block header_options %}
+  {#% include 'version2/landing/components/header.html' %#}
+
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#kt_body" 
+        data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Inicio</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#requisitos" 
+        data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Requisitos</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#sucursales" 
+        data-kt-scroll-toggle="true" 
+        data-kt-drawer-dismiss="true">Sucursales</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="{% url 'quienes-somos' %}" 
+        data-kt-scroll-toggle="true" 
+        data-kt-drawer-dismiss="true">¿Quiénes somos?</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+	{% endblock %}
+  
+  {% block 'sections_body' %}
+		{% include 'version2/landing/components/body/slider_principal.html' %}
+	
+		{#% include 'version2/landing/components/body/seccion_tucrecimiento.html' %#}
+		{% include 'version2/landing/components/body/servicios.html' %}
+		{% include 'version2/landing/components/body/botones_flotantes.html' %}
+
+		{% include 'version2/landing/components/body/requisitos.html' %}
+		{#% include 'version2/landing/components/body/seccion_requisitos.html' %#}
+		{% include 'version2/landing/components/body/sucursales.html' %}
+		{% include 'version2/landing/components/body/footer.html' %}
+		{% include 'version2/landing/components/body/scrolltop.html' %}
+		
+	{% endblock %}
+	
+
+{% endblock %}
+{% block 'extra_js'%}
+
+        
+<!--
+	<script src="{% static 'app/vuejs/landing.js'%}"></script>
+<script>
+	var myCarousel = document.querySelector('#carouselExampleControls')
+	var carousel = new bootstrap.Carousel(myCarousel)
+	</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<script>
+		console.log("*********** landing ****************")
+	</script>
+
+
+		<script src="{% static 'app/connect_api.js' %}"></script>
+		<script src="{% static 'app/vuejs/landing.js' %}" ></script>
+	-->
+{% endblock %}

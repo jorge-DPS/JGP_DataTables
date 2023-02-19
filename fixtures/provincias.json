@@ -1,0 +1,1009 @@
+[{
+        "model": "cliente.provincia",
+        "pk": 1,
+        "fields": {
+            "codigo": 101,
+            "nombre": "Oropeza",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 2,
+        "fields": {
+            "codigo": 102,
+            "nombre": "Azurduy",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 3,
+        "fields": {
+            "codigo": 103,
+            "nombre": "Zudañez",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 4,
+        "fields": {
+            "codigo": 104,
+            "nombre": "Tomina",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 4,
+        "fields": {
+            "codigo": 105,
+            "nombre": "Hernando Siles",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 5,
+        "fields": {
+            "codigo": 106,
+            "nombre": "Yamparaez",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 6,
+        "fields": {
+            "codigo": 107,
+            "nombre": "Nor Cinti",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 7,
+        "fields": {
+            "codigo": 108,
+            "nombre": "Belisario Boeto",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 8,
+        "fields": {
+            "codigo": 109,
+            "nombre": "Sud Cinti",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 9,
+        "fields": {
+            "codigo": 110,
+            "nombre": "Luis Calvo",
+            "departamento": 1
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 10,
+        "fields": {
+            "codigo": 201,
+            "nombre": "Murillo",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 11,
+        "fields": {
+            "codigo": 202,
+            "nombre": "Omasuyos",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 12,
+        "fields": {
+            "codigo": 203,
+            "nombre": "Pacajes",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 13,
+        "fields": {
+            "codigo": 204,
+            "nombre": "Camacho",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 14,
+        "fields": {
+            "codigo": 205,
+            "nombre": "Muñecas",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 14,
+        "fields": {
+            "codigo": 206,
+            "nombre": "Larecaja",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 15,
+        "fields": {
+            "codigo": 207,
+            "nombre": "Franz Tamayo",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 16,
+        "fields": {
+            "codigo": 208,
+            "nombre": "Ingavi",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 17,
+        "fields": {
+            "codigo": 209,
+            "nombre": "Loayza",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 18,
+        "fields": {
+            "codigo": 210,
+            "nombre": "Inquisivi",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 19,
+        "fields": {
+            "codigo": 211,
+            "nombre": "Sur Yungas",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 20,
+        "fields": {
+            "codigo": 212,
+            "nombre": "Los Andes",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 21,
+        "fields": {
+            "codigo": 213,
+            "nombre": "Aroma",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 22,
+        "fields": {
+            "codigo": 214,
+            "nombre": "Nor Yungas",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 23,
+        "fields": {
+            "codigo": 215,
+            "nombre": "Abel Iturralde",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 24,
+        "fields": {
+            "codigo": 216,
+            "nombre": "Bautista Saavedra",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 24,
+        "fields": {
+            "codigo": 217,
+            "nombre": "Manco Kapac",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 25,
+        "fields": {
+            "codigo": 218,
+            "nombre": "Gualberto Villarroel",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 26,
+        "fields": {
+            "codigo": 219,
+            "nombre": "Gral. J. Manuel Pando",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 27,
+        "fields": {
+            "codigo": 220,
+            "nombre": "Caranavi",
+            "departamento": 2
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 28,
+        "fields": {
+            "codigo": 301,
+            "nombre": "Cercado",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 29,
+        "fields": {
+            "codigo": 302,
+            "nombre": "Campero",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 30,
+        "fields": {
+            "codigo": 303,
+            "nombre": "Ayopaya",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 31,
+        "fields": {
+            "codigo": 304,
+            "nombre": "Esteban Arce",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 32,
+        "fields": {
+            "codigo": 305,
+            "nombre": "Arani",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 33,
+        "fields": {
+            "codigo": 306,
+            "nombre": "Arque",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 34,
+        "fields": {
+            "codigo": 307,
+            "nombre": "Capinota",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 34,
+        "fields": {
+            "codigo": 308,
+            "nombre": "German Jordan",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 35,
+        "fields": {
+            "codigo": 309,
+            "nombre": "Quillacollo",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 36,
+        "fields": {
+            "codigo": 310,
+            "nombre": "Chapare",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 37,
+        "fields": {
+            "codigo": 311,
+            "nombre": "Tapacari",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 38,
+        "fields": {
+            "codigo": 312,
+            "nombre": "Carrasco",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 39,
+        "fields": {
+            "codigo": 313,
+            "nombre": "Mizque",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 40,
+        "fields": {
+            "codigo": 314,
+            "nombre": "Punata",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 41,
+        "fields": {
+            "codigo": 315,
+            "nombre": "Bolivar",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 42,
+        "fields": {
+            "codigo": 316,
+            "nombre": "Tiraque",
+            "departamento": 3
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 43,
+        "fields": {
+            "codigo": 401,
+            "nombre": "Cercado",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 44,
+        "fields": {
+            "codigo": 402,
+            "nombre": "Abaroa",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 44,
+        "fields": {
+            "codigo": 403,
+            "nombre": "Carangas",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 45,
+        "fields": {
+            "codigo": 404,
+            "nombre": "Sajama",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 46,
+        "fields": {
+            "codigo": 405,
+            "nombre": "Litoral",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 47,
+        "fields": {
+            "codigo": 406,
+            "nombre": "Poopo",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 48,
+        "fields": {
+            "codigo": 407,
+            "nombre": "Pantaleon Dalence",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 49,
+        "fields": {
+            "codigo": 408,
+            "nombre": "Ladislao Cabrera",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 50,
+        "fields": {
+            "codigo": 409,
+            "nombre": "Sabaya",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 51,
+        "fields": {
+            "codigo": 410,
+            "nombre": "Saucari",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 52,
+        "fields": {
+            "codigo": 411,
+            "nombre": "Tomas Barron",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 53,
+        "fields": {
+            "codigo": 412,
+            "nombre": "Sur Carangas",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 54,
+        "fields": {
+            "codigo": 413,
+            "nombre": "S. Pedro de Totora",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 54,
+        "fields": {
+            "codigo": 414,
+            "nombre": "Sebastian Pagador",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 55,
+        "fields": {
+            "codigo": 415,
+            "nombre": "Mejillones",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 56,
+        "fields": {
+            "codigo": 416,
+            "nombre": "Nor Carangas",
+            "departamento": 4
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 57,
+        "fields": {
+            "codigo": 501,
+            "nombre": "Tomas Frias",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 58,
+        "fields": {
+            "codigo": 502,
+            "nombre": "Rafael Bustillo",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 59,
+        "fields": {
+            "codigo": 503,
+            "nombre": "Cornelio Saavedra",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 60,
+        "fields": {
+            "codigo": 504,
+            "nombre": "Chayanta",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 61,
+        "fields": {
+            "codigo": 505,
+            "nombre": "Charcas",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 62,
+        "fields": {
+            "codigo": 506,
+            "nombre": "Nor Chichas",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 63,
+        "fields": {
+            "codigo": 507,
+            "nombre": "Alonzo de Ibañez",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 64,
+        "fields": {
+            "codigo": 508,
+            "nombre": "Sur Chichas",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 64,
+        "fields": {
+            "codigo": 509,
+            "nombre": "Nor Lipez",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 65,
+        "fields": {
+            "codigo": 510,
+            "nombre": "Sur Lipez",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 66,
+        "fields": {
+            "codigo": 511,
+            "nombre": "Jose Maria Linares",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 67,
+        "fields": {
+            "codigo": 512,
+            "nombre": "Antonio Quijarro",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 68,
+        "fields": {
+            "codigo": 513,
+            "nombre": "Gral. B. Bilbao",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 69,
+        "fields": {
+            "codigo": 514,
+            "nombre": "Daniel Campos",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 70,
+        "fields": {
+            "codigo": 515,
+            "nombre": "Modesto Omiste",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 71,
+        "fields": {
+            "codigo": 516,
+            "nombre": "Enrique Baldiviezo",
+            "departamento": 5
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 72,
+        "fields": {
+            "codigo": 601,
+            "nombre": "Cercado",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 73,
+        "fields": {
+            "codigo": 602,
+            "nombre": "Arce",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 74,
+        "fields": {
+            "codigo": 603,
+            "nombre": "Gran Chaco",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 74,
+        "fields": {
+            "codigo": 604,
+            "nombre": "Avilez",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 75,
+        "fields": {
+            "codigo": 605,
+            "nombre": "Mendez",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 76,
+        "fields": {
+            "codigo": 606,
+            "nombre": "Burnet O Connor",
+            "departamento": 6
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 77,
+        "fields": {
+            "codigo": 701,
+            "nombre": "Andres Ibañez",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 78,
+        "fields": {
+            "codigo": 702,
+            "nombre": "Warnes",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 79,
+        "fields": {
+            "codigo": 703,
+            "nombre": "Velasco",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 80,
+        "fields": {
+            "codigo": 704,
+            "nombre": "Ichilo",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 81,
+        "fields": {
+            "codigo": 705,
+            "nombre": "Chiquitos",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 82,
+        "fields": {
+            "codigo": 706,
+            "nombre": "Sara",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 83,
+        "fields": {
+            "codigo": 707,
+            "nombre": "Cordillera",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 84,
+        "fields": {
+            "codigo": 708,
+            "nombre": "Vallegrande",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 84,
+        "fields": {
+            "codigo": 709,
+            "nombre": "Florida",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 85,
+        "fields": {
+            "codigo": 710,
+            "nombre": "Obispo Santiestevan",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 86,
+        "fields": {
+            "codigo": 711,
+            "nombre": "Ñuflo de Chavez",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 87,
+        "fields": {
+            "codigo": 712,
+            "nombre": "Angel Sandoval",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 88,
+        "fields": {
+            "codigo": 713,
+            "nombre": "Caballero",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 89,
+        "fields": {
+            "codigo": 714,
+            "nombre": "German Busch",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 90,
+        "fields": {
+            "codigo": 715,
+            "nombre": "Guarayos",
+            "departamento": 7
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 91,
+        "fields": {
+            "codigo": 801,
+            "nombre": "Cercado",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 92,
+        "fields": {
+            "codigo": 802,
+            "nombre": "Vaca Diez",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 93,
+        "fields": {
+            "codigo": 803,
+            "nombre": "Gral. J. Ballivian",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 94,
+        "fields": {
+            "codigo": 804,
+            "nombre": "Yacuma",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 94,
+        "fields": {
+            "codigo": 805,
+            "nombre": "Moxos",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 95,
+        "fields": {
+            "codigo": 806,
+            "nombre": "Marban",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 96,
+        "fields": {
+            "codigo": 807,
+            "nombre": "Mamore",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 97,
+        "fields": {
+            "codigo": 808,
+            "nombre": "Itenez",
+            "departamento": 8
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 98,
+        "fields": {
+            "codigo": 901,
+            "nombre": "Nicolas Suarez",
+            "departamento": 9
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 99,
+        "fields": {
+            "codigo": 902,
+            "nombre": "Manuripi",
+            "departamento": 9
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 100,
+        "fields": {
+            "codigo": 903,
+            "nombre": "Madre de Dios",
+            "departamento": 9
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 101,
+        "fields": {
+            "codigo": 904,
+            "nombre": "Abuna",
+            "departamento": 9
+        }
+    },
+    {
+        "model": "cliente.provincia",
+        "pk": 102,
+        "fields": {
+            "codigo": 905,
+            "nombre": "Gral. Federico Roman",
+            "departamento": 9
+        }
+    }
+]

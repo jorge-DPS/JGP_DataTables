@@ -1,0 +1,41 @@
+
+<div class="modal fade" tabindex="-1" id="kt_modal_1" ref="reclamoModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header color-amarillo-empresa">
+                <h5 class="modal-title">¿Cómo podemos ayudarte?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <!--begin::Input group-->
+                <form class="was-validated">
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input type="text" v-model="reclamo.nombre_completo" class="form-control is-invalid" id="Nombre" placeholder="Nombre" onchange="toggleButton()" required />
+                    </div>
+                    <!--begin::Input group-->
+                    <div class="mb-3">
+                        <label for="ci" class="form-label">C.I.</label>
+                        <input type="number" v-model="reclamo.cedula_identidad" class="form-control is-invalid" id="ci" placeholder="ci" onchange="toggleButton()" required />
+                    </div>
+                    <!--begin::Input group-->
+                    <div class="mb-3">
+                        <label for="celular" class="form-label">Celular</label>
+                        <input type="number" v-model="reclamo.numero_celular" class="form-control is-invalid" id="celular" placeholder="celular" onchange="toggleButton()" required />
+                    </div>
+                    <!--begin::Input group-->
+                    <div class="mb-3">
+                        <label  for="validationTextarea" class="form-label">Textarea</label>
+                        <textarea v-model="reclamo.detalle" class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" onchange="toggleButton()" required>
+                        </textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                <button id="submitButton" class="btn text-white" @click="sendReclamo()" style="background-color: #171a32;" disabled>Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
+

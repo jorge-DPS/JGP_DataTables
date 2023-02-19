@@ -1,0 +1,49 @@
+{% extends "version2/grupo_solidario/solidario_base.html" %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Grupo' %}{% endblock %}
+
+{% block subheader_buttons %}
+
+<a href="{% url 'grupo:lista_grupo'%}" 
+    class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+    <i class="bi bi-arrow-bar-left fs-2"></i> {% trans 'Atras'%}
+</a>
+
+{% comment %} id="kt_docs_formvalidation_text_submit" {% endcomment %}
+<div >
+    <a href="#" id="btnEditarGrupo"
+    class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold">
+    {% trans 'Actualizar'%}
+    </a>
+</div>
+
+{% endblock %}
+
+{% block sub_title %}{% trans 'Nuevo Grupo'%}{% endblock %}
+
+{% block content_solidario  %}  
+    {% include "version2/grupo_solidario/partials/form.html" %}
+{% endblock content_solidario %}
+
+{% block extra_js %}
+
+<script>
+    app.grupo_edit = GRUPO_SOLIDARIO_ID;
+    //console.log('*******', ZONA_ID);
+    app.getGrupoSolidario(GRUPO_SOLIDARIO_ID);
+    //console.log( "app.zona_edit = Zona;",app.zona_edit)
+</script>
+
+<script>
+    
+    $("#btnEditarGrupo").click(function(){
+        //app.zona_edit = ZONA_ID;
+        //app.zona_edit = ZONA_ID;
+        //app.getZona(ZONA_ID);
+        app.editarGrupoSolisario(GRUPO_SOLIDARIO_ID);
+        
+    })
+</script>
+{% endblock %}
+

@@ -1,0 +1,58 @@
+{% extends 'version2/landing/base.html' %}
+{% load static i18n %}
+
+{% block content_body %}
+	{% block header_options %}
+  {#% include 'version2/landing/components/header.html' %#}
+
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#quienes_somos" 
+        data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Historia</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#valores" 
+        data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Valores</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#equipo" 
+        data-kt-scroll-toggle="true" 
+        data-kt-drawer-dismiss="true">Equipo</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+  <!--begin::Menu item-->
+  <div class="menu-item">
+    <!--begin::Menu link-->
+    <a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#reconocimientos" 
+        data-kt-scroll-toggle="true" 
+        data-kt-drawer-dismiss="true">Reconocimientos</a>
+    <!--end::Menu link-->
+  </div>
+  <!--end::Menu item-->
+	{% endblock %}
+
+  {% block 'sections_body' %}
+		{% include 'version2/landing/components/body/historia.html' %}
+	
+		{% include 'version2/landing/components/body/footer.html' %}
+		{% include 'version2/landing/components/body/botones_flotantes.html' %}
+		{% include 'version2/landing/components/body/scrolltop.html' %}
+		
+	{% endblock %}
+	
+
+{% endblock %}
+{% block 'extra_js'%}
+
+        
+{% endblock %}

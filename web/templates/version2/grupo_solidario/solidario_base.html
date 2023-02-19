@@ -1,0 +1,70 @@
+{% extends 'version2/layouts/base8.html' %}
+{% load static %}
+{% block title %}Grupo{% endblock %}
+{% block title_subheader %}Grupo Solidario{% endblock %}
+{% block subtitle_subheader %}Lista{% endblock %}
+
+{% block extra_css %}
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+{% endblock extra_css %}
+
+
+{% load static %}
+
+
+<!--begin::Post-->
+{% block content_body %}
+<!--begin::Post-->
+<div class="post d-flex flex-column-fluid" id="kt_personas">
+  <!--begin::Container--> 
+  <div id="kt_content_container" class="container-xxl">
+    
+    <!--begin::Entry-->
+    <div class="d-flex flex-column-fluid">
+      <!--begin::Container-->
+      <div class="container p-1">
+        <!--begin::Card-->
+        <div class="card card-custom gutter-b">
+          <div class="card-body pl-1 pr-1">
+          
+              <!--begin: Form Depositos -->
+              <div id="formGrupo">
+                {% block content_solidario %}
+                    
+                {% endblock content_solidario %}
+              </div>
+            <!--end: Form Depositos-->
+          </div>
+        </div>
+
+        <!--begin::Modal-->
+        <!--end::Modal-->
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!--end::Post-->  
+
+{% endblock content_body %}
+
+{% block vue_js %}
+
+<script>
+  var csrftoken = '{{ csrf_token }}';
+  var URL_LIST = "{% url 'grupo:lista_grupo' %}"
+  {% if grupo %}
+  let GRUPO_SOLIDARIO_ID = '{{ grupo.codigo_grupo }}'
+  console.log("=============>",GRUPO_SOLIDARIO_ID)
+  
+  {% endif %}
+</script>
+
+<script src="{% static 'app/vuejs/grupo_solidario.js' %}"></script>
+<script src="{% static 'app/vuejs/validations/form_grupo.js' %}"></script>
+<script src="{% static 'metronic8/assets/plugins/global/plugins.bundle.js' %}"></script>
+<script src="{% static 'metronic8/assets/plugins/custom/datatables/datatables.bundle.js' %}"></script>
+
+{% endblock vue_js %}
+

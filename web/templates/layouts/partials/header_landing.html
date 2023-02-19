@@ -1,0 +1,137 @@
+{% load static i18n %}
+
+<!--begin::Header-->
+<div id="kt_header" class="header header-fixed" style="background-color: #D8BB4A;">
+	<!--begin::Container-->
+	<div class="container-fluid d-flex align-items-stretch justify-content-between">
+    <div class="mt-2">
+      <!--begin::Logo-->
+      <a href="{% url 'home' %}">
+        <img alt="Logo" src="{% static 'images/logos_jgp/logo-dark.png' %}" width="136px">
+      </a>
+    </div>
+		<!--begin::Header Menu Wrapper-->
+		<div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+			<!--begin::Header Menu-->
+			<div id="kt_header_menu" class="header-menu header-menu-mobile header-menu-layout-default">
+				<!--begin::Header Nav-->
+            <a href="#id_landing" class="btn my-3 mx-1 font-weight-bold font-size-h4 bg-hover-light-warning" 
+                style="background-color: #F4EBCB; color: #ffa800;">
+              <i class="la la-question icon-2x" style="color: #ffa800"></i> Cómo solicitar
+            </a>
+            <a href="#requisitos" class="btn my-3 mx-1 font-weight-bold font-size-h4 bg-hover-light-warning" 
+                style="background-color: #F4EBCB; color: #ffa800;">
+              <i class="la la-list-alt icon-2x" style="color: #ffa800"></i> Requisitos
+            </a>
+            <a href="#about" class="btn my-3 mx-1 font-weight-bold font-size-h4 bg-hover-light-warning" 
+                style="background-color: #F4EBCB; color: #ffa800;">
+              <i class="la la-user-tie icon-2x" style="color: #ffa800"></i> Quiénes somos
+            </a>
+				<!--ul class="menu-nav">
+					<li class="menu-item mr-5 menu-item-submenu" >
+						<a href="#id_landing" class="btn btn-light-warning">
+							<span class="font-weight-bold font-size-h6 text-dark-65 text-hover-white" >Cómo solicitar</span>
+							<i class="menu-arrow"></i>
+						</a>
+					</li>
+					<li class="menu-item mr-5 menu-item-submenu" >
+						<a href="#requisitos" class="btn btn-light-warning">
+							<span class="font-weight-bold font-size-h6 text-dark-65 text-hover-white" >Requisitos</span>
+							<i class="menu-arrow"></i>
+						</a>						
+					</li>
+					<li class="menu-item mr-5 menu-item-submenu" hidden >
+						<a href="#calculadora" class="btn btn-light-warning">
+							<span class="font-weight-bold font-size-h6 text-dark-65 text-hover-white" >Cálcular crédito</span>
+							<i class="menu-arrow"></i>
+						</a>
+					</li>
+					<li class="menu-item mr-5 menu-item-submenu">
+						<a href="#about" class="btn btn-light-warning">
+							<span class="font-weight-bold font-size-h6 text-dark-65 text-hover-white" >Quienes somos</span>
+							<i class="menu-arrow"></i>
+						</a>         
+					</li>
+					<li class="menu-item menu-item-submenu" hidden>
+						<a href="{% url 'empleos' %}" class="btn btn-light-warning">
+							<span class="font-weight-bold font-size-h6 text-dark-65 text-hover-white" >Empleos</span>
+							<i class="menu-arrow"></i>
+						</a>         
+					</li>
+				</ul-->
+			</div>
+		</div>
+
+		<!--begin::Toolbar-->
+    <div class="topbar">
+      {% if user.username %}
+      <!--begin::User loged-->
+      <div class="topbar-item">
+        <div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2" 
+             style="background-color: #F4EBCB;" id="kt_quick_user_toggle">
+          <!--span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">{% trans 'Hola, '%}</span-->
+          <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mx-3">
+            {% if '@' in user.username %}
+              {{user.username|lower}}
+            {% else %}
+              @{{user.username|lower}}              
+            {% endif %}
+          </span>
+          <span class="symbol symbol-lg-35 symbol-25 symbol-light-primary">
+          <span class="symbol-label font-size-h5 font-weight-bold">{{user.username|slice:"0:1"|upper}}</span>
+          </span>
+        </div>
+      </div>
+      {% else %}
+      <!--end::User without loged-->
+      <div class="topbar-item">
+        <a href="{% url 'account_login' %}" class="btn btn-lg">
+          <i class="flaticon2-user" style="color: #F4EBCB;"></i>
+          <span class="font-weight-bold d-md-inline" style="color: #F4EBCB;">Iniciar sesión</span>          
+        </a>
+      </div>
+      {% endif %}
+    </div>
+	</div>
+</div>
+
+<!--end::Header-->
+
+<!--begin::Header Mobile-->
+<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed" style="background-color: #D8BB4A;">
+
+	<!--begin::Logo-->
+	<a href="{% url 'home' %}">
+    <img alt="Logo" src="{% static 'images/logos_jgp/logo-dark.png' %}" width="136px">
+  </a>
+
+	<!--end::Logo-->
+
+	<!--begin::Toolbar-->
+	<div class="d-flex align-items-center">
+
+		<button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
+			<span></span>
+		</button>
+
+		<button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
+				<span class="svg-icon svg-icon-xl">
+					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/User.svg-->
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+						viewBox="0 0 24 24" version="1.1">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<polygon points="0 0 24 0 24 24 0 24"></polygon>
+							<path
+								d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z"
+								fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+							<path
+								d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z"
+								fill="#000000" fill-rule="nonzero"></path>
+						</g>
+					</svg>
+					<!--end::Svg Icon-->
+				</span>
+			</button>
+	</div>
+</div>
+<!--end::Header Mobile-->

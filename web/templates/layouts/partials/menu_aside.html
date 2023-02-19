@@ -1,0 +1,101 @@
+{% load static i18n %}
+<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+  <!--begin::Brand-->
+  <div class="brand flex-column-auto" id="kt_brand">
+    <!--begin::Logo-->
+    <a href="{% url 'home' %}" class="brand-logo">
+      <!--img alt="Logo" src="{% static 'assets/media/logos/logo-light.png' %}" /-->
+      <img alt="Logo" src="{% static 'images/logos_jgp/logo-dark.png' %}" width="136px" />
+    </a>
+    <!--end::Logo-->
+    <!--begin::Toggle-->
+    <button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
+      <span class="svg-icon svg-icon svg-icon-xl">
+        <!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Angle-double-left.svg-->
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+          viewBox="0 0 24 24" version="1.1">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <polygon points="0 0 24 0 24 24 0 24" />
+            <path
+              d="M5.29288961,6.70710318 C4.90236532,6.31657888 4.90236532,5.68341391 5.29288961,5.29288961 C5.68341391,4.90236532 6.31657888,4.90236532 6.70710318,5.29288961 L12.7071032,11.2928896 C13.0856821,11.6714686 13.0989277,12.281055 12.7371505,12.675721 L7.23715054,18.675721 C6.86395813,19.08284 6.23139076,19.1103429 5.82427177,18.7371505 C5.41715278,18.3639581 5.38964985,17.7313908 5.76284226,17.3242718 L10.6158586,12.0300721 L5.29288961,6.70710318 Z"
+              fill="#000000" fill-rule="nonzero"
+              transform="translate(8.999997, 11.999999) scale(-1, 1) translate(-8.999997, -11.999999)" />
+            <path
+              d="M10.7071009,15.7071068 C10.3165766,16.0976311 9.68341162,16.0976311 9.29288733,15.7071068 C8.90236304,15.3165825 8.90236304,14.6834175 9.29288733,14.2928932 L15.2928873,8.29289322 C15.6714663,7.91431428 16.2810527,7.90106866 16.6757187,8.26284586 L22.6757187,13.7628459 C23.0828377,14.1360383 23.1103407,14.7686056 22.7371482,15.1757246 C22.3639558,15.5828436 21.7313885,15.6103465 21.3242695,15.2371541 L16.0300699,10.3841378 L10.7071009,15.7071068 Z"
+              fill="#000000" fill-rule="nonzero" opacity="0.3"
+              transform="translate(15.999997, 11.999999) scale(-1, 1) rotate(-270.000000) translate(-15.999997, -11.999999)" />
+          </g>
+        </svg>
+        <!--end::Svg Icon-->
+      </span>
+    </button>
+    <!--end::Toolbar-->
+  </div>
+  <!--end::Brand-->
+  <!--begin::Aside Menu-->
+  <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+    <!--begin::Menu Container-->
+    <div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1"
+      data-menu-dropdown-timeout="500">
+      <!--begin::Menu Nav-->
+      <ul class="menu-nav">
+        <li class="menu-item menu-item-active" aria-haspopup="true">
+          <a href="{% url 'dashboard' %}" class="menu-link">
+            <span class="svg-icon menu-icon">
+              <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                height="24px" viewBox="0 0 24 24" version="1.1">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <polygon points="0 0 24 0 24 24 0 24" />
+                  <path
+                    d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z"
+                    fill="#000000" fill-rule="nonzero" />
+                  <path
+                    d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z"
+                    fill="#000000" opacity="0.3" />
+                </g>
+              </svg>
+              <!--end::Svg Icon-->
+            </span>
+            <span class="menu-text">{% trans 'Panel de control' %}</span>
+          </a>
+        </li>
+        <li class="menu-section">
+          <h4 class="menu-text">{% trans 'Clientes' %}</h4>
+          <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+        </li>
+
+        {#{perms.contabilidad}#}
+        {% comment %} {% if 'contabilidad' in perms %}
+        {% if menu == 'SOLICITUD' %}
+        <li class="menu-item menu-item-submenu menu-item-open" aria-haspopup="true" data-menu-toggle="hover">
+          {% else %}
+        <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+          {% endif %}
+          <a href="{% url 'contabilidad:lista-solicitudes' %}" class="menu-link menu-toggle">
+            <span class="svg-icon menu-icon">
+              <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Communication/Clipboard-check.svg--><svg
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                viewBox="0 0 24 24" version="1.1">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <rect x="0" y="0" width="24" height="24"/>
+                    <path d="M8,13.1668961 L20.4470385,11.9999863 L8,10.8330764 L8,5.77181995 C8,5.70108058 8.01501031,5.63114635 8.04403925,5.56663761 C8.15735832,5.31481744 8.45336217,5.20254012 8.70518234,5.31585919 L22.545552,11.5440255 C22.6569791,11.5941677 22.7461882,11.6833768 22.7963304,11.794804 C22.9096495,12.0466241 22.7973722,12.342628 22.545552,12.455947 L8.70518234,18.6841134 C8.64067359,18.7131423 8.57073936,18.7281526 8.5,18.7281526 C8.22385763,18.7281526 8,18.504295 8,18.2281526 L8,13.1668961 Z" fill="#000000"/>
+                    <path d="M4,16 L5,16 C5.55228475,16 6,16.4477153 6,17 C6,17.5522847 5.55228475,18 5,18 L4,18 C3.44771525,18 3,17.5522847 3,17 C3,16.4477153 3.44771525,16 4,16 Z M1,11 L5,11 C5.55228475,11 6,11.4477153 6,12 C6,12.5522847 5.55228475,13 5,13 L1,13 C0.44771525,13 6.76353751e-17,12.5522847 0,12 C-6.76353751e-17,11.4477153 0.44771525,11 1,11 Z M4,6 L5,6 C5.55228475,6 6,6.44771525 6,7 C6,7.55228475 5.55228475,8 5,8 L4,8 C3.44771525,8 3,7.55228475 3,7 C3,6.44771525 3.44771525,6 4,6 Z" fill="#000000" opacity="0.3"/>
+                </g>
+              </svg>
+              <!--end::Svg Icon-->
+            </span>
+            <span class="menu-text">{% trans 'Solicitudes'%}</span>
+            <!--i class="menu-arrow"></i-->
+          </a>
+        </li>
+        {% endif %} {% endcomment %}
+
+
+      </ul>
+      <!--end::Menu Nav-->
+    </div>
+    <!--end::Menu Container-->
+  </div>
+  <!--end::Aside Menu-->
+</div>

@@ -1,0 +1,111 @@
+{% load static %}
+
+<!--begin::Testimonials Section-->
+<div class="mt-20 mb-n20 position-relative z-index-2">
+  <!--begin::Container-->
+  <div class="container">
+    <!--begin::Heading-->
+    <div class="text-center mb-17">
+      <!--begin::Title-->
+      <h3 class="fs-2hx text-dark mb-5" id="sucursales" data-kt-scroll-offset="{default: 125, lg: 150}">Sucursales</h3>
+      <!--end::Title-->
+      <!--begin::Description-->
+      <div class="fs-5 text-muted fw-bold">
+        Puedes encontrarnos en las siguientes direcciones
+      </div>
+      <!--end::Description-->
+    </div>
+    <!--end::Heading-->
+    <!--begin::Row-->
+    <div class="row g-lg-10 mb-10 mb-lg-20">
+      <!--begin::Col-->
+      {% verbatim %}
+      <div class="col-lg-3 mb-10 col-md-6 col-sm-6" v-for="sucursal in lista_sucursales">
+        <div class="card h-lg-100 bg-blue-jgp ">
+          <!--begin::Body-->
+          <div class="card-body">
+            <!--begin::Row-->
+            <div class="row align-items-center">
+              <!--begin::Col-->
+              <div class="col-12 pe-0 mb-5 mb-sm-0">
+                <!--begin::Wrapper-->
+                <div class="d-flex justify-content-between h-100 flex-column">
+                  <!--begin::Container-->
+                  <div class="mb-7">
+                    <!--begin::Title-->
+                    <div class="mb-6">
+                      <h2 class="fs-1x fw-semibold text-white mb-5 text-center">{{sucursal.nombre}}</h2>
+                      <span class="fw-normal text-white opacity-75 fs-7">{{sucursal.direccion}}</span>
+                    </div>
+                    <!--end::Title-->
+                    <!--begin::Items-->
+                    <div class="d-flex align-items-center flex-wrap d-grid gap-2">
+                      <div class="d-flex align-items-center me-5 me-xl-13">
+                        <!--begin::Symbol-->
+                        <div class="symbol symbol-30px symbol-circle me-3">
+                          <span class="symbol-label" style="background: rgba(255, 255, 255, 0.15);">
+                            <i class="bi bi-telephone fs-4 text-white"></i>
+                          </span>
+                        </div>
+
+                        <!--begin::Info-->
+                        <div class="m-0">
+                          <a href="/metronic8/demo1/../demo1/pages/user-profile/projects.html" 
+                              class="text-white text-opacity-75 fs-8">Teléfono</a>
+                          <span class="fw-bold text-white fs-7 d-block">{{sucursal.telefono}}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end::Container-->
+                  <!--begin::Action-->
+                  <div class="m-0 text-center">
+                    <a class="btn btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold" 
+                      @click="openUbicacionModal(sucursal.punto_gps, sucursal.nombre)">
+                        Ver mapa
+                    </a>
+                  </div>
+                  <!--begin::Action-->
+                </div>
+                <!--end::Wrapper-->
+              </div>
+              <!--begin::Col-->
+            </div>
+            <!--begin::Row-->
+          </div>
+          <!--end::Body-->
+        </div>
+      </div>
+      {% endverbatim %}
+
+      <!--end::Col-->
+    </div>
+    <!--end::Row-->
+    <!--begin::Highlight-->
+    <div class="d-flex flex-stack flex-wrap flex-md-nowrap card-rounded shadow p-8 p-lg-12 mb-n5 mb-lg-n13" 
+        style="background: linear-gradient(60deg, #CEA715 0%, #171A32 90%);">
+      <!--begin::Content-->
+      <div class="my-2 me-5">
+        <!--begin::Title-->
+        <div class="fs-1 fs-lg-2qx fw-bolder text-white mb-2">No lo pienses más,
+        <span class="fw-normal">solicita un préstamo!</span></div>
+        <!--end::Title-->
+        <!--begin::Description-->
+        <div class="fs-6 fs-lg-5 text-white fw-bold opacity-75">
+          Más de 100,000 clientes ya lo hicieron y están creciendo en su emprendimiento.
+        </div>
+        <!--end::Description-->
+      </div>
+      <!--end::Content-->
+      <!--begin::Link-->
+      {% comment %} <a href="{% url 'contabilidad:solicitud-credito' %}" 
+        class="btn btn-lg btn-outline border-2 flex-shrink-0 my-2 btn-gold-jgp">
+        ¡SOLICITAR AHORA!
+      </a> {% endcomment %}
+      <!--end::Link-->
+    </div>
+    <!--end::Highlight-->
+  </div>
+  <!--end::Container-->
+</div>
+<!--end::Testimonials Section-->

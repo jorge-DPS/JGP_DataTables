@@ -1,0 +1,29 @@
+{% load static i18n %}
+
+{% verbatim %}
+<div class="modal fade" tabindex="-1" ref="sucursalModal">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-blue-jgp">
+        <h2 class="modal-title text-white">Sucursal: {{ nombre_completo_sucursal }}</h2>
+        <button type="button" aria-label="Close"
+            class="btn btn-close btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold"
+            @click="closeModalUbicacion()">
+        </button>
+          
+      </div>
+
+      <div class="modal-body">
+        <!--begin::Input group-->
+        <div id="gmap_3" ref="map" style="height: 500px !important;"></div>
+        <!--end::Input group-->
+      </div>
+      <div class="modal-footer bg-blue-jgp">
+        <button type="button" class="btn btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold" 
+            @click="closeModalUbicacion()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endverbatim %}
+

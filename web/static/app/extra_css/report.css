@@ -1,0 +1,116 @@
+.pie{
+   padding-left: 1cm !important;
+   display: block !important;
+   font-size: 10px !important;
+}
+@media print{
+@page {
+    size: 220mm 280mm; 
+    margin-left: 1cm;
+    margin-right: 2cm;
+    margin-top: -1cm;
+    margin-bottom: -1cm;
+  }
+   body {
+      width: 220mm;
+      height: 280mm;
+      overflow:visible;
+   }
+     /* Reglas CSS específicas para imprimir */
+   .sinimprimir{
+      display:none;
+   }
+   .no-print{
+      display:none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+   }
+   .membrete-print {
+      margin-left: 2.5cm !important;
+      margin-bottom: 1cm !important;
+      display: hidden !important;
+      position: absolute !important;
+      z-index: 9999999 !important;
+   }
+   .body-print{
+      font-size: 20px;
+      padding: 1cm !important;
+   }
+   .fecha-print{
+      font-size: 20px;
+      padding: 1cm !important;
+      margin-top: -2cm;
+   }
+   .footer{
+      visibility:hidden !important;
+      display: none !important;
+   }
+   .header{
+      visibility:hidden !important;
+      display: none !important;
+   }
+   .fecha{
+      font-size: 25px;
+   }
+   .imagenqr{
+      margin-top: 5cm;
+      margin-right: 1cm;
+      width: 5cm;
+      height: 5cm;
+   }
+   .title{
+      margin-top: 1cm;
+      margin-left: 4cm;
+   }
+   .pie{
+      padding-left: 1cm !important;
+      margin-top: 4cm;
+      display: block !important;
+      font-size: 10px !important;
+      margin-top: 8.5cm;
+   }
+   .note{
+      font-size: 14px;
+      margin-top: 1cm;
+   }
+   .enlace{ font-size: 12px;}
+   
+}
+/*
+   .footer{
+      visibility:hidden !important;
+   }
+   .header{
+      visibility:hidden !important;
+   }
+   .azul {
+      border-bottom: 2px solid #232a4a;
+      -webkit-print-color-adjust: exact !important;
+   }
+   .amarillo {
+      -webkit-print-color-adjust: exact !important;
+   }
+   .cajafirma {
+      border: 1px solid #232a4a;
+      border-radius: 10px;
+   }
+   .firmas {
+      margin: 120px 80px 0px 80px !important;
+   }
+   .revisado {
+      display: block !important;
+   }  
+   .cajas {
+      display: block !important;
+   }
+   .fecha {
+   display: block !important;
+   font-size: 8px;
+   }
+   .asesor {
+      display: block !important;
+      font-size: 8px;
+      margin-top: -20px;
+   }
+   */
+ }

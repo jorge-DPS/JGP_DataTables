@@ -1,0 +1,28 @@
+{% extends 'version2/caja/arqueo_caja/arqueo_base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block subheader_buttons %}
+<!-- INPUT FOR SEARCH SOLICITUD-->
+    <div class="input-group input-group-sm input-group-solid text-center" style="max-width: 200px;">
+        <input type="text" id="search_persona" placeholder="Buscar . . ." class="form-control "> 
+        <div class="input-group-append">
+            <span class="input-group-text">
+                <i class="bi bi-search fs-1x "></i>
+            </span>
+        </div>
+    </div>
+    <a href="{% url 'cajas:crear-encabezado' %}"
+  {% comment %} <a href="{% url 'administracion:nuevo-persona' %}" aqui va la url del path a donde apuntara {% endcomment %}
+        class="btn btn-block btn-icon-primary btn-text-primary btn-hover-scale fw-bold fs-base mr-1">
+        <i class="bi bi-plus fs-2"></i> Nuevo Arqueo
+    </a>
+
+{% endblock %}
+
+{% block content_arqueo_caja %}
+
+    {% include "version2/caja/arqueo_caja/partials/table.html" %}
+
+{% endblock content_arqueo_caja %}
+

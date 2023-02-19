@@ -1,0 +1,1 @@
+"use strict";var KTStickyPanelsDemo={init:function(){var e;KTLayoutAsideToggle&&KTLayoutAsideToggle.onToggle&&(e=new Sticky(".sticky"),KTLayoutAsideToggle.onToggle(function(){setTimeout(function(){e.update()},500)}))}};jQuery(document).ready(function(){KTStickyPanelsDemo.init()});

@@ -1,0 +1,52 @@
+<div class="card card-flush">
+  <div class="card-body py-15">
+    <div class="row">
+      <div class="card-body pt-1 row align-items-center">
+        <div class="col d-inline-block">
+          <div class="d-flex flex-center flex-column mb-3">
+            <span class="fs-3 text-gray-800 text-hover-primary fw-bolder mb-1">
+              Detalle Zona
+            </span>
+          </div>
+        </div>
+        <div class="separator separator-dashed my-3"></div>
+        <div class="pb-5 fs-6">
+          <div class="container-fluid pb-10 align-items-center">
+            <div class="row">
+              <div class="col-4">
+                <div class="fw-bolder mt-5">ID Zona:</div>
+                <div class="text-gray-600">[[zona.id]]</div>
+              </div>
+              <div class="col-4">
+                <div class="fw-bolder mt-5">Zona descripcion:</div>
+                <div class="text-gray-600">
+                  <div class="text-gray-600">[[zona.descripcion]]</div>
+
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="fw-bolder mt-5">Localidad:</div>
+                <div class="text-gray-600">[[zona.localidad.descripcion]]</div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="separator separator-dashed my-3"></div>
+                <div class="col-4">
+                  <div class="fw-bolder mt-5">Creado en la sucursal Sucursal</div>
+                  <div class="text-gray-600">[[zona.sucursal_creacion]]</div>
+                </div>
+
+                <div class="col-4">
+                  <div class="fw-bolder mt-5">Fecha Actualizacion</div>
+                  <div class="text-gray-600">[[zona.actualizado_en]]</div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
